@@ -1,0 +1,51 @@
+#nav {
+  min-width: 350px;
+  max-width: 370px;
+  cursor: pointer;
+}
+
+.hymn-content {
+  cursor: pointer;
+  width: 100%;
+  overflow: auto;
+}
+
+.closed div:nth-child(2),
+.root.closed > .cont > div:nth-child(2) {
+  display: none !important;
+}
+
+/*.pc > div {
+  overflow-x: auto;
+}*/
+
+.cm,
+.cont {
+  background-color: white;
+}
+
+.cm:hover,
+.cont:hover:not(:has(div:hover)) {
+  color: #495057;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.cm.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.active span > img,
+#collapse-all > img,
+#expand-all > img,
+#fullscreen > img {
+  filter: invert(100%);
+}
+
+/*--------------------tree------------------------*/
+.indent {
+  padding-left: 1rem;
+}

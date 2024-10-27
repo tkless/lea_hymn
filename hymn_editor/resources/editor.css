@@ -1,0 +1,32 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.box {
+  position: relative;
+}
+
+.fade-in-out {
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  opacity: 0;
+  animation:
+    fadeIn 2s forwards,
+    fadeOut 2s 3s forwards;
+}

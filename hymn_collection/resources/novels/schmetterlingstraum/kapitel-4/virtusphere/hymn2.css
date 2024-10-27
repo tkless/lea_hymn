@@ -1,0 +1,39 @@
+/* BACKGROUND */
+body
+ {
+/*  background-color: white; */
+/*  background-image: url(FHback.gif); */
+  background-repeat: no-repeat;
+/*  background-attachment: fixed; */
+/*  background-position: center; */
+}
+
+/* MISC TYPOGRAPHY */
+body, p, h1, h2, h3, h4, h5, table, tr, th, td, li, ul, ol, dl, b, em, i, center
+ { font-family: Frutiger, Arial, Helvetica, sans-serif }
+.bigtext
+ { font-size: 0.8cm }
+
+/* TABLE */
+table
+ { border-collapse:collapse }
+th
+ { font-weight: bold }
+td
+ {  text-align: center }
+
+/* Div. colors */
+.null { background-color:#000; color:#ddd }
+
+/* image references */
+.img_ref { background-color:#000; font-family: Georgia, Comic Sans, Arial, sans-serif; margin-top:0px; margin-bottom:40px }
+
+a, a:visited, a:active {
+text-decoration:underline;
+font-weight:bold;
+color:#cecece;
+}
+
+a:hover {
+color:#ffffff;
+}

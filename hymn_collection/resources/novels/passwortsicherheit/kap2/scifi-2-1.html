@@ -1,0 +1,332 @@
+<h2>Wie man Passwörter knackt</h2>
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd !important;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+</style>
+
+<br />
+
+<table>
+  <tr>
+    <th>Kommunikationsprotokoll</th>
+    <th>Mission "HOMO"</th>
+    <th>(Humans On Mars Operation)</th>
+  </tr>
+  <tr>
+    <td>Paula Prinz</td>
+    <td>PP</td>
+    <td>Missionskommandant</td>
+  </tr>
+  <tr>
+    <td>Experten-Computersystem mit Künstlicher Intelligenz</td>
+    <td>ECKI</td>
+    <td>Raumschiffs-KI</td>
+  </tr>
+  <tr>
+    <td>Datum</td>
+    <td>2048-08-03</td>
+    <td>05:36 Erdstandardzeit (UTC)</td>
+  </tr>
+</table>
+
+<br />
+
+<p>
+  PP: "So, Ecki. Dann wollen wir mal einen neuen Versuch wagen."<br />
+  ECKI: "Ja, Paula. Lass uns anfangen. Bist du bereit?"<br />
+  PP: "So bereit wie noch nie. Wie du über meine Helmkamera sehen müsstest,
+  stehe ich hier wieder vor dem Panel und warte auf deinen Vorschlag für eine
+  Passwort-Eingabe." <br />
+</p>
+
+<p>
+  <i><b>Häufige Standard-Passwörter</b></i>
+</p>
+
+<p>
+  ECKI: "Versuch's mal mit '12345'."<br />
+  PP: "Dein Ernst?"<br />
+  ECKI: "Du würdest nicht glauben, wie viele Menschen das laut Statistik immer
+  noch als Passwort benutzen."<br />
+  PP: "Na schön. Versuchen kann ich es ja mal ... klappt aber nicht."<br />
+  ECKI: "Naja, das wäre auch zu schön gewesen. Aber nicht gleich die Flinte in's
+  Korn werfen! Versuchen wir mal ein paar Variationen, zum Beispiel '23451'."<br />
+  (Etliche gescheiterte Versuche später ...) ECKI: "abcdefg"<br />
+  PP: "Nein."<br />
+  ECKI: "Abcdefg"<br />
+  PP: "Nein. Kannst du mir deine Vorschläge nicht in's Helmdisplay projizieren?
+  Dann ginge das Abtippen schneller."<br />
+  ECKI: "Gute Idee. Bitte schön."<br />
+  PP: "Ah, super. Danke. ... Nein."<br />
+  (Noch einige gescheiterte Versuche später …)<br />
+
+  ECKI: "Versuchen wir mal was anderes: 'Passwort.'"<br />
+  PP: "Nein."<br />
+  ECKI: "Passwort1"<br />
+  PP: "Nein. Weißt du was, Ecki – auf diese Weise können wir noch tagelang
+  weiter im Trüben herumstochern. Aber mir geht allmählich die Luft aus. Und ich
+  meine das wörtlich, wenn ich auf meine Sauerstoffanzeige schaue." <br />
+  ECKI: "Einer noch: Passwort2" <br />
+  PP: "Och nöööh. Da könnte ich es auch gleich mit 'Rumpelstilzchen' versuchen."
+  <br />
+  ECKI: "Warum nicht? – Mach mal." <br />
+  PP: "Echt jetzt?" <br />
+  ECKI: "Das ist so gut wie jedes andere. Und manchmal wird auch gerne gerade
+  ein besonders durchschaubares Passwort gewählt, in der Erwartung, dass das
+  niemand ausprobiert. Von der Sorte habe ich übrigens noch ein paar Tausend in
+  petto."<br />
+  PP: "Also gut. Aber dann müssen wir uns wirklich etwas Neues einfallen lassen.
+  So geht das viel zu langsam. Blöd, dass ich die Codes alle von Hand eingeben
+  muss. Kannst du dich nicht mit der Tastatur kurz­schließen?"<br />
+  ECKI: "Vorgesehen ist das nicht. Aber warte mal einen Augenblick. Ich müsste
+  die Konstruktionspläne irgendwo in meinem Speicher haben ... Ah, da sind sie
+  ja. Hm ... doch, so könnte es gehen. Die Tastatur ist virtuell und reagiert
+  auf mechanischen Druck, aber auch auf Lichtsignale. Wenn du aus dem Landemodul
+  ein Tablet mit direkter Verbindung zu mir mitbringst und darüber hältst,
+  sollte ich die Codes in hoher Frequenz durchprobieren können. Dann kann ich
+  alles Mögliche aus meinem Speicher durch­probieren." <br />
+  PP: "OK. Dann komme ich jetzt erst mal wieder zurück zum Lander. Ich muss
+  sowieso meinen Luftvorrat auftanken."<br />
+</p>
+
+<p>
+  <i><b>Hashes</b></i>
+</p>
+
+<br />
+
+<table>
+  <tr>
+    <th>Missions-Logbuch</th>
+    <th>"HOMO"</th>
+    <th>(Humans On Mars Operation)</th>
+  </tr>
+  <tr>
+    <td>Eintrag</td>
+    <td>ECKI</td>
+    <td>Experten-Computersystem mit Künstlicher Intelligenz</td>
+  </tr>
+  <tr>
+    <td>Typ</td>
+    <td>intern</td>
+    <td>Raumschiffs-KI</td>
+  </tr>
+  <tr>
+    <td>Datum</td>
+    <td>2048-08-04</td>
+    <td>15:30 Erdstandardzeit (UTC)</td>
+  </tr>
+</table>
+
+<br />
+
+<p>
+  Der Versuch mit dem Tablet hat tatsächlich funktioniert. Jedenfalls im
+  Prinzip. Und nachdem Paula das Gerät mit einem Abstandhalter über der
+  Eingabekonsole festmontiert hat, musste sie nicht einmal mehr dabei stehen und
+  konnte sich ein bisschen ausruhen, während ich sämtliche einfachen
+  Zahlenkombinationen, gebräuchliche und seltene Vor- und Kosenamen sowie die
+  Wörterbücher der 6.9762<sup>2</sup> bekannten irdischen Sprachen und einiger
+  Dialekte aus meiner Datenbank – leider vergeblich – getestet habe.
+  <br />
+  Inzwischen habe ich auch schon eine ganze Reihe von Hashes durchprobiert. Das
+  sind unumkehrbar generierte – und daher nicht direkt decodierbare – Pseudonyme
+  für Passwörter, die von diversen Online-Diensten erstellt werden, um die
+  Datensicherheit ihrer Kunden zu schützen. Allerdings geraten immer mal wieder
+  Listen mit diesen Hashes in die Hände von Hackern. Da die Algorithmen zu ihrer
+  Erzeugung bekannt sind, können die dann mit entsprechender Rechenleistung aus
+  vielen möglichen Klartext-Passwörtern neue Hashes erstellen und mit denen auf
+  einer Liste vergleichen. Sind zwei Hashes identisch, dann sind es auch die
+  Passwörter. Wenn die Person, die das Zugangspasswort zum Habitat hat
+  überschreiben lassen, ein Passwort – was grundsätzlich vermieden werden
+  sollte, aber oft passiert – 1:1 oder nur geringfügig verändert wiederverwendet
+  hat und das Original-Passwort auf einer der Listen als Hash steht, die mir die
+  Kontrollstation von der Erde zugeschickt hat, sollte ich es so herausfinden
+  können.
+  <br />
+  Aber leider hat auch dieser Ansatz nicht zum Erfolg geführt. Die Station
+  verweigert immer noch unerbittlich den Zugang. Und ein Versuch, gewaltsam
+  einzudringen, könnte die Zerstörung der Station zur Folge haben.
+  <br />
+  Wenn meine Programmierung so etwas vorsähe, würde ich auch langsam zur
+  Verzweiflung neigen.<br />
+</p>
+
+<p>
+  <i><b>Social engineering vs. Brute force</b></i>
+</p>
+
+<br />
+
+<table>
+  <tr>
+    <th>Missions-Logbuch</th>
+    <th>"HOMO"</th>
+    <th>(Humans On Mars Operation)</th>
+  </tr>
+  <tr>
+    <td>Eintrag</td>
+    <td>Paula Prinz</td>
+    <td>persönlich</td>
+  </tr>
+  <tr>
+    <td>Typ</td>
+    <td>privat</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Datum</td>
+    <td>2048-08-04</td>
+    <td>18:45 Erdstandardzeit (UTC)</td>
+  </tr>
+</table>
+
+<br />
+
+<p>
+  Es ist schon frustrierend.<br />
+  Eigentlich dachte ich schon, eine gute Idee zu haben, als ich Ecki vorschlug,
+  doch den Quantencomputer im Kontrollzentrum mit dem Passwort-Knacken zu
+  beauftragen. Das High-Tech-Monster soll schließ­lich um ein Vielfaches
+  schneller sein als alle herkömmlichen Computer und buchstäblich einen
+  Quantensprung der Rechenleistung gebracht haben. Aber die Hoffnung hat Ecki
+  schnell zunichte gemacht. Bei manchen Aufgaben, meint er, eröffnet der
+  Quantencomputer tatsächlich neue Dimensionen – aber nicht bei allen. Und
+  selbst wenn er in kürzester Zeit Abertausende von Passwortvariationen erzeugen
+  könnte, würde es hier immer noch nicht schneller gehen, sie alle durch zu
+  probieren. Aber leider ist die Zeit, die uns dafür bleibt, sehr begrenzt. Oder
+  jedenfalls meine Zeit. Ecki würde ja noch eine ganze Weile durchhalten, aber
+  ich habe bald die Luftvorräte des Landemoduls aufgebraucht. Wenn jetzt nicht
+  noch ein Wunder geschieht, dann war's das mit dem ersten Marsmenschen!<br />
+</p>
+
+<table>
+  <tr>
+    <th>Missions-Logbuch</th>
+    <th>"HOMO"</th>
+    <th>(Humans On Mars Operation)</th>
+  </tr>
+  <tr>
+    <td>Eintrag</td>
+    <td>ECKI</td>
+    <td>Experten-Computersystem mit Künstlicher Intelligenz</td>
+  </tr>
+  <tr>
+    <td>Typ</td>
+    <td>intern</td>
+    <td>Raumschiffs-KI</td>
+  </tr>
+  <tr>
+    <td>Datum</td>
+    <td>2048-08-05</td>
+    <td>00:27 Erdstandardzeit (UTC)</td>
+  </tr>
+</table>
+
+<br />
+
+<p>
+  Heureka!<br />
+  Paula stand schon ganz kurz vor dem Aufgeben. Aber dann hat sich das
+  Kontrollzentrum gemeldet. Unter allen noch erreichbaren Beteiligten an der
+  Aufbau-Mission 2033 haben sie in einer Seniorenresidenz Dr. Phil Methus
+  ausfindig gemacht, ein Mitglied des Teams, das noch kurz vor dem Start Hand an
+  die Programmierung der Roboter gelegt und ihnen den letzten Schliff verpasst
+  hatte. Der hat sich sehr gefreut, von den alten Zeiten erzählen zu können und
+  konnte sich wiederum daran erinnern, dass sein Kollege, Igor Padjomkin, immer
+  über die Einfallslosigkeit des Habitatpassworts genörgelt habe und dass Dr.
+  Padjomkin, als die Arbeit endlich abgeschlossen war und sich das Team
+  erschöpft auf dem Weg zum Parkplatz befand, zuletzt noch einmal zurück ins
+  Labor lief, um, wie er sagte, noch "eine Kleinigkeit zu korrigieren". Sie
+  hatten ihn ziehen lassen und nicht mehr auf ihn gewartet. Sie wollten nur noch
+  nach Hause.
+  <br />
+  Gut möglich, dass er das Passwort überschrieben hatte und es nach dem Start –
+  wenn niemand es mehr hätte ändern können – der Missionsleitung mitteilen
+  wollte. Denn Dr. Padjomkin hatte den Schalk im Nacken, war aber nach der
+  festen Überzeugung von Dr. Methus "nie und nimmer ein Saboteur". Er konnte ja
+  nicht ahnen, dass er auf dem Heimweg einen tödlichen Verkehrsunfall haben
+  würde.
+  <br />
+  Glücklicherweise hat sich Dr. Methus auch daran erinnert, dass Dr. Padjomkin
+  2014 aus Russland in die USA ausgewandert war und dass er immer betont hatte,
+  wie stolz er sei, dass sowohl Russland als auch Amerika einen elementaren
+  Beitrag zur Eroberung des Weltalls geleistet hätten und er beide Nationen
+  repräsentiere. So kam die Besatzung des Kontrollzentrums zusammen mit meinem
+  dortigen KI-Kollegen auf die Idee, es mit Variationen der Namen und Daten der
+  beiden bedeutendsten Weltraumpioniertaten zu versuchen: der ersten
+  Erdumrundung am 12. April 1961 durch den sowjetischen Kosmonauten Juri
+  Alexejewitsch Gagarin in der Raumkapsel Wostok 1 und der Mondlandung am 21.
+  Juli 1969 mit der Landefähre Eagle im Rahmen der NASA-Raumfahrtmission Apollo
+  11, als mit dem US-amerikanischen Astronauten Neil Alden Armstrong erstmals
+  ein Mensch einen extraterrestrischen Himmelskörper betrat.
+  <br />
+  Soeben ist Paula mit dem Passwort "Gagarin61+Armstrong69" erfolgreich gewesen
+  und betritt in diesem Augenblick das Habitat. (Durchaus ein starkes Passwort
+  mit 21 Zeichen und einer Kombination von Zahlen, Sonderzeichen sowie Groß- und
+  Kleinbuchstaben; aber jedes Passwort ist nur so gut, wie es sich nicht mit
+  Kenntnis persönlicher Vorlieben des Erstellers erraten lässt.)<br />
+</p>
+
+<table>
+  <tr>
+    <th>Missions-Logbuch</th>
+    <th>"HOMO"</th>
+    <th>(Humans On Mars Operation)</th>
+  </tr>
+  <tr>
+    <td>Eintrag</td>
+    <td>Paula Prinz</td>
+    <td>Missionskommandant</td>
+  </tr>
+  <tr>
+    <td>Typ</td>
+    <td>offiziell</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Datum</td>
+    <td>2048-08-05</td>
+    <td>00:41 Erdstandardzeit (UTC)</td>
+  </tr>
+</table>
+
+<br />
+
+<p>
+  Hiermit nehme ich, Dr. rer. nat. Paula Luise Prinz, das Marshabitat im Namen
+  der Menschheit und im Auftrag der United Global Space Agency UGSA formell in
+  Besitz.
+  <br />
+  Ich bin drin – uff! Dank sei Dr. Phil Methus! @Kontrollzentrum: Gebt ihm auf
+  meine Rechnung einen Drink aus. Oder besser: So viele er will!!!<br />
+</p>
+
+<br />
+
+<hr />
+<p>
+  <small>
+    <sup>2</sup> Verschiedene Quellen sprechen von ca. 7.000 menschlichen
+    Sprachen; die genauste gefundene Zählung listet ca. 6.990 auf. Eine exakte
+    Angabe ist aber schon deshalb schwierig, weil eine Trennung zwischen Sprache
+    und Dialekt nicht immer eindeutig möglich ist. Um ECKI einen exakten Wert zu
+    geben und in der Annahme, dass bis zum Jahr 2048 einige "aussterbende"
+    Sprachen verschwunden sein könnten, wurde die von ihm genannte Zahl frei
+    erfunden.
+  </small>
+</p>

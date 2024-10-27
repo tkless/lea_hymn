@@ -1,0 +1,201 @@
+<h2>Virtuelle TV Studios: Tracking</h2>
+
+<p>
+  Tracking dient dazu um die virtuelle Kamera mit der realen Kamera zu
+  syncronisieren. Denn die Objekte in der virtuellen Szene, die in der realen
+  Szene angezeigt werden, müssen aus dem gleichen Winkel und Abstand wie die
+  realen Objekte angezeigt werden. Sonst kommt es zu "unlogischen" Szenen und
+  der Betrachter sieht sofort das die Objekte nicht real sind. <br /><br />
+  Folgende Kamera-Parameter müssen beim Tracking beachtet werden:
+</p>
+
+<ul>
+  <li>Position im Raum (x,y,z)</li>
+  <li>
+    Achsenbewegung:
+    <ul>
+      <li>Schwenken (pan)</li>
+      <li>Neigung (tilt)</li>
+      <li>Rollen um die optische Achse (roll)</li>
+    </ul>
+  </li>
+  <li>Brennweite (zoom)</li>
+  <li>Schärfe (focus)</li>
+  <li>Blende (aperture)</li>
+</ul>
+<br />
+<p>
+  Die größten Probleme der Tracking-Systeme, wie Verzögerungszeiten von einigen
+  Frames oder die langwierige Kalibration, können mit Hilfe von modernen
+  Entwicklungen gering gehalten werden. In dieser Hinsicht entwickeln wir uns
+  Richtung "Echtzeitsysteme".
+</p>
+
+<hr />
+<h2>Tracking Verfahren</h2>
+<p>Die Tracking-Verfahren werden wie folgt unterteilt:</p>
+<ol>
+  <li>mechanische Verfahren</li>
+  <li>elektronische Verfahren</li>
+  <li>visuelle Verfahren</li>
+</ol>
+
+<p>
+  Es gibt noch weitere Tracking-Möglichkeiten beziehungsweise Traking-Systeme,
+  die jedoch in Verbindung mit einem Kamera-Tracking-System noch ineffizient
+  sind.
+</p>
+<p>Beispiele hierfür sind:</p>
+<ul>
+  <li>akustische Verfahren</li>
+  <li>elektromagnetische Verfahren</li>
+</ul>
+<p>
+  Diese Verfahren haben große Nachteile.<br />
+  Sei es die Ungenauigkeit bei der Positionsbestimmung oder der immense
+  Energieverbrauch.
+</p>
+
+<h3>1. mechanische Verfahren:</h3>
+<p>
+  Bei mechanischen Verfahren werden die bewegungen der Kamera vorher fest
+  definiert z.B. durch eine Schienenfahrt. Anhand dieser festgelegten
+  Kamerabewegung wird die virtuelle Szene modeliert. Dieses Verfahren ist
+  unflexiebel und ungenau und eignet sich daher nicht für größere Produktionen.
+</p>
+<br />
+<div>
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/5_two_cameras_dollies_reduced.jpg"
+    alt="Schienen tracking system"
+    width="550px"
+  /><br />Abbildung 1.0 - Mechanisches Verfahren: Schienen-Tracking-System
+</div>
+<br /><br />
+
+<h3>2. elektronische Verfahren:</h3>
+<p>
+  Bei elektronischen Verfahren (auch Motion-Control-Systeme genannt) werden die
+  Kameraeinstellungen direkt übermittelt mit Hilfe von Robotik welche zur
+  Steuerung, Regelung und übermittlung der Kameradaten dient. Die Daten der
+  Motion-Control-Computer werden in GrafikSoftware eingelesen und können dann
+  auf die virtuelle Kamera abgebildet werden.
+</p>
+<br />
+<p>
+  Diese Systeme sind Echtzeitfähig, aber teuer und unflexibel da z.B. sind keine
+  Handkameras möglich.
+</p>
+<br />
+<div>
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/robokam_studio2.jpg"
+    alt="Elektronisches Tracking-System"
+  /><br />Abbildung 1.1 - Elektronisches Verfahren: RoboKam im ZDF-Studio
+</div>
+<br /><br />
+
+<h3>3. visuelle Verfahren:</h3>
+<p>
+  Visuelle Verfahren arbeiten mit Visuelle Markierungen auf festgelegten
+  Punkten. Diese Punkte werden im Gesamtbild erfasst, dadurch kann die Position
+  der Kamera berechnet werden.
+</p>
+<br />
+
+<h4>Systeme:</h4>
+<b>Orad's Xync Infrared tracking system:</b><br />
+<p>
+  Das Orad's Xync Infrared tracking system arbeitet mit Infrarot LED's auf den
+  Kameras die von Beobachtungskameras erfasst werden und dadurch die Positionen
+  der Kameras betimmt.
+</p>
+<div>
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/orad.jpg"
+    alt="Orad Xync Infrared tracking system"
+  /><br />Abbildung 1.2 - Orad's Xync Infrared tracking system
+</div>
+<br /><br />
+
+<b>BBC free-D camera tracking:</b><br />
+<p>
+  Das BBC free-D camera tracking system arbeitet mit Barcode Targets auf dem
+  Tr�gerrost der Studiobeleuchtung.Eine CCD-Kamera auf den Studiokameras erfasst
+  diese Targets und kann damit die Position der Kamera bestimmen.
+</p>
+<br />
+<div>
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/bbc.jpg"
+    alt="BBC free-D camera tracking"
+  /><br />Abbildung 1.3 - BBC free-D camera tracking
+</div>
+<br /><br />
+
+<b>Thoma Walkfinder:</b><br />
+<p>
+  Auf jeder Kamera wird ein Target angegracht, bestehend aus einem Metallgestell
+  mit vier hochreflektierenden Kugeln. Diese werden von Deckenkameras
+  ausgewertet.
+</p>
+<br />
+<div>
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/steadicam_detail.jpg"
+    alt="Thoma Walkfinder Tracking-System"
+  /><br />Abbildung 1.4 - Thoma Walkfinder Tracking-System
+</div>
+<br /><br />
+
+<p>
+  Nachteile dieser Systeme, sie sind Kostspielig, Aufwändig in der Installation
+  und auf indoor Produktion beschränkt. Jedoch haben sie zwei entscheidende
+  Vorteile, sie sind Echtzeitfähig und flexibel.
+</p>
+<br /><br />
+
+<hr />
+<h3>Weiterführende Links:</h3>
+<ul>
+  <li>
+    <a
+      href="http://www.movie-college.de/filmschule/kamera/motion-control.htm"
+      target="_blank"
+      >Motion-Control-System</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://magazine.creativecow.net/article/inside-hbos-the-wire"
+      target="_blank"
+      >Creative COW Magazine</a
+    >
+  </li>
+  <li>
+    <a href="http://orad.tv/en/page.asp?id=80" target="_blank"
+      >Orad's Xync Infrared tracking system</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://www.rtleaders.com/de/broadcasting-automation/robokam/"
+      target="_blank"
+      >RoboKam Tracking-System</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://www.bbc.co.uk/rd/projects/virtual/free-d/index2.shtml#1"
+      target="_blank"
+      >BBC free-D camera tracking</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://www.thoma.de/produkte/walkfinder_tracking_system.html"
+      target="_blank"
+      >Thoma Walkfinder Tracking-System</a
+    >
+  </li>
+</ul>

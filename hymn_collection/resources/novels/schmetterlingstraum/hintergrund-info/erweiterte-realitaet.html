@@ -1,0 +1,571 @@
+<h2><a id="Titel"></a>Erweiterte Realit&auml;t</h2>
+
+<p class="source">
+  Quelle: Ronald Ecker, "Benutzerschnittstellen f&uuml;r Erweiterte
+  Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+</p>
+
+<h3><a id="Definition"></a>Definition</h3>
+
+<p>
+  Nach Wikipedia versteht man unter Erweiterter Realit&auml;t die
+  computergest&uuml;tzte Erweiterung der Realit&auml;tswahrnehmung. Diese
+  Information kann alle menschlichen Sinnesmodalit&auml;ten ansprechen,
+  h&auml;ufig wird jedoch unter erweiterter Realit&auml;t nur die visuelle
+  Darstellung von Informationen verstanden <a href="#quelle1">[1]</a>.
+</p>
+
+<p>
+  Nach der Definition von Azuma <a href="#quelle2">[2]</a> muss ein AR System
+  drei Kriterien erf&uuml;llen:
+</p>
+<ul>
+  <li>Kombination von realen und virtuellen Elementen</li>
+  <li>Interaktiv in Echtzeit</li>
+  <li>Registrierung im 3 dimensionalen Raum</li>
+</ul>
+
+<p>
+  Die Interaktion des Benutzers kann mit den folgenden Werkzeugen umgesetzt
+  werden
+</p>
+<ul>
+  <li>
+    Zeigeger&auml;te in Kombination mit Auswahltasten f&uuml;r die Selektion
+    (z.B. Laser Beam)
+  </li>
+  <li>
+    Eingabeger&auml;te f&uuml;r die Dateneingabe (z.B. Tastatur, Mikrofon zur
+    Spracheingabe)
+  </li>
+  <li>Ger&auml;te zur Manipulation (in AR)</li>
+</ul>
+
+<h3><a id="Kategorien"></a>Kategorien</h3>
+
+<h4>Auditive Erweiterung</h4>
+
+<p>
+  Auditive Erweiterungen sprechen das Geh&ouml;r des Benutzers an und haben zwei
+  Vorteile, wenn sie in der AR implementiert werden:
+</p>
+
+<ul>
+  <li>Der Benutzer muss seine Umgebung nicht st&auml;ndig analysieren.</li>
+  <li>
+    Er kann mit der AR interagieren, ohne allt&auml;gliche Gewohnheiten zu
+    unterbrechen zu m&uuml;ssen.
+  </li>
+</ul>
+
+<h4>Haptische Realit&auml;tserweiterung</h4>
+
+<p>
+  Haptische Erweiterungen sprechen den Tastsinn des Benutzers an. Wenn der
+  Benutzer z.B. eine virtuelle Oberfl&auml;che ber&uuml;hrt, sp&uuml;rt er in
+  seiner Hand auch diese Ber&uuml;hrung, als wenn sie tats&auml;chlich
+  stattgefunden hat. Auf diese Weise k&ouml;nnen &Auml;rzte Operationen
+  trainieren, ohne Tieren oder Menschen durch Fehlgriffe Schaden zuzuf&uuml;gen.
+</p>
+
+<h3>Visuelle Erweiterung</h3>
+
+<p>
+  Visuelle Erweiterungen sprechen das Sehverm&ouml;gen des Benutzers an und
+  blenden virtuelle Objekte dem Benutzer ins Sichtfeld.
+</p>
+
+<h3><a id="Arten_der_Praesentation"></a>Arten der Pr&auml;sentation</h3>
+
+<h4>2D in 2D</h4>
+
+<ul>
+  <li>Desktop Fenstermanager</li>
+</ul>
+
+<h4>2D in 3D</h4>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/2din3d.png"
+    alt="2D in 3D"
+  /><br /><a href="#abbildung1"
+    ><br />Abbildung 1: Virtuelle Uhr an Wand projiziert</a
+  >
+</p>
+
+<h3>2D auf 3D</h3>
+
+<ul>
+  <li>Surround-fixed windows</li>
+  <li class="sublist">
+    <ul>
+      <li>2D Fenster &uuml;ber 3D Welt legen</li>
+      <li>Head-Up-Display (HUD)</li>
+    </ul>
+  </li>
+  <li>World-fixed windows</li>
+  <li class="sublist">
+    <ul>
+      <li>2D Fenster an realem Objekt "befestigt"</li>
+    </ul>
+  </li>
+  <li>Display-fixed windows</li>
+  <li class="sublist">
+    <ul>
+      <li>Fenster hat feste Position auf Display</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/2dauf3d.png"
+    alt="2D auf 3D"
+  /><br /><a href="#abbildung2"
+    ><br />Abbildung 2: Text &uuml;ber die Szene gelegt</a
+  >
+</p>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/2dauf3d_2.png"
+    alt="2D auf 3D"
+  /><br /><a href="#abbildung3"><br />Abbildung 3: IDs an Markern befestigt</a>
+</p>
+
+<h4>3D in 3D</h4>
+
+<p>
+  Virtuelle Objekte werden &uuml;ber die Realit&auml;t perspektivisch korrekt
+  gelegt.
+</p>
+
+<h3><a id="Level_of_Detail"></a>Level of Detail</h3>
+
+<p>
+  Da die aktuellen mobilen Systeme nicht so leistungsf&auml;hig sind um eine
+  gro&szlig;e Zahl an Polygonen darzustellen, m&uuml;ssen Details ausgeblendet
+  werden.
+</p>
+
+<ul>
+  <li>Physikalische Effekte werden nachgebildet:</li>
+  <li class="sublist">
+    <ul>
+      <li>
+        Gr&ouml;&szlig;ere Entfernung bedeutet weniger Details f&uuml;rs Auge
+        sichtbar -> Weniger Polygone m&uuml;ssen darstellt werden.
+      </li>
+    </ul>
+  </li>
+  <li>Informationsflut f&uuml;r Benutzer muss gering gehalten werden:</li>
+  <li class="sublist">
+    <ul>
+      <li>
+        Gr&ouml;&szlig;ere Entfernung von Objekten bedeutet weniger Details oder
+        Bedienelemente einblenden.
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/lod.png"
+    alt="Level of Detail"
+  /><br /><a href="#abbildung4"
+    ><br />Abbildung 4: Level of Detail an einer virtuellen Uhr</a
+  >
+</p>
+
+<h2><a id="Informationspraesentation"></a>Informationspr&auml;sentation</h2>
+
+<ul>
+  <li>Szenengenerator</li>
+  <li>
+    <ul>
+      <li>
+        Umsetzung der Berechnung beider Welten und schlie&szlig;lich Kombination
+      </li>
+    </ul>
+  </li>
+  <li>Ger&auml;t zur Darstellung</li>
+  <li>
+    <ul>
+      <li>Berechnete Daten anzeigen</li>
+    </ul>
+  </li>
+  <li>Trackingsystem</li>
+  <li>
+    <ul>
+      <li>Position und Blickfeld des Benutzers ermitteln</li>
+    </ul>
+  </li>
+</ul>
+
+<h3><a id="Anwendungsgebiete"></a>Anwendungsgebiete</h3>
+
+<h4>Entertainment</h4>
+
+<ul>
+  <li>Games</li>
+  <li>
+    <ul>
+      <li>ARQuake</li>
+      <li>ARhrrrr</li>
+    </ul>
+  </li>
+  <li>Spielobjekte werden in die Realit&auml;t projiziert</li>
+  <li>Spieler interagiert mit Objekten</li>
+</ul>
+
+<p class="img">
+  <img
+    src="http://wearables.unisa.edu.au/arquake/pictures/img_7872-hf.jpg"
+    alt="ARQuake"
+  /><br /><a href="#abbildung5">Abbildung 5: ARQuake "Anzug"</a>
+</p>
+
+<h4>Industrie</h4>
+
+<ul>
+  <li>Auto</li>
+  <li class="sublist">
+    <ul>
+      <li>Aktuelle Geschwindigkeit, Lage zu anderen Autos, etc.</li>
+    </ul>
+  </li>
+  <li>Flugzeug</li>
+  <li class="sublist">
+    <ul>
+      <li>Pilot werden Informationen direkt ins Sichtfeld projiziert</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="img">
+  <img
+    src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/HUD_view.jpg/800px-HUD_view.jpg"
+    alt="HUD"
+  /><br /><a href="#abbildung6"
+    >Abbildung 6: Head-Up-Display in einem Kampfflugzeug</a
+  >
+</p>
+
+<h4>Medizin</h4>
+
+<ul>
+  <li>Point-of-interest wird dem Arzt w&auml;hrend Operation eingeblendet</li>
+  <li>Training vor der realen Operation -> Video see-through HMD</li>
+</ul>
+
+<h3>Werbung, Pr&auml;sentationen</h3>
+
+<p>
+  Immer h&auml;ufiger werden in der Werbung Produktpr&auml;sentationen mit Hilfe
+  von Augmented Reality realisiert. Die Produkte lassen sich so greifbarer und
+  interessanter darstellen. Ziel ist es auch im Online-Shop das gleiche wie im
+  Laden Vor Ort bieten zu k&ouml;nnen.
+</p>
+<ul>
+  <li>Produktpr&auml;sentationen (im Laden oder Online-Shop)</li>
+  <li>Online Werbe-Banner / interaktive Plakate</li>
+</ul>
+<p>Vorteile beim Einsatz von AR in der Werbung:</p>
+<ul>
+  <li>
+    <strong>Steigerung Conversion Rate</strong>: Kaufinteresse des Kunden wird
+    durch eine individuelle Produktpr&auml;sentation h&auml;ufiger in eine
+    Bestellung umgewandelt
+  </li>
+  <li>
+    <strong>Emotionalisierung</strong>:Visuelle Produktpr&auml;sentationen geben
+    einen zus&auml;tzlichen Kaufanreiz
+  </li>
+  <li>
+    <strong>Kundenbindung</strong>: Nutzer kann mit Produkten interagieren und
+    diese ausprobieren
+  </li>
+  <li>
+    <strong>Entsch&auml;rfung von Kaufhindernissen</strong>: Anschauen von
+    Artikeln abseits von &Ouml;ffnungszeiten, in der eigenen Wohnung
+  </li>
+</ul>
+
+<h4>Beispiele</h4>
+
+<h5>Lego Digital Box <a href="#quelle3">[3]</a></h5>
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/lego.jpg"
+    alt="Lego Digital Box"
+  /><br /><a href="#abbildung10"><br />Abbildung 10: Lego Digital Box</a>
+</p>
+<p>
+  Der Spielzeughersteller Lego hat mit der Lego Digital Box eine Augmented
+  Reality Anwendung entworfen, mit der die Ladenbesucher sich ein Legomodell
+  dreidimensional ansehen k&ouml;nnen bevor es fertig gebaut ist.
+</p>
+<p>
+  Das funktioniert, indem man die Lego-Packung vor eine Kamera, die Lego Digital
+  Box, h&auml;lt. Das Ger&auml;t der M&uuml;nchener Firma Metaio (<a
+    href="http://www.metaio.de/"
+    >http://www.metaio.de/</a
+  >) verf&uuml;gt &uuml;ber einen Computer, ein Display und eine Kamera, die die
+  Verpackung erkennt. Der Kunde sieht dann auf dem Display die Packung zusammen
+  mit dem feritgen Lego-Modell.
+</p>
+<p>
+  Durch drehen und wenden der Packung kann das Objekt auch bewegt und von
+  verschidenen Seiten betrachtet werden.
+</p>
+<p>
+  Die Lego Digital Box wurde seit 2008 in verschiedenen ausgew&auml;hlten Shops
+  getestet und hat dort bereits grosse zus&auml;tzliche Gewinnspannen erzeugt.
+</p>
+
+<h5>Burger King AR Banner <a href="#quelle4">[4]</a></h5>
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/burgerking.jpg"
+    alt="Burger King AR Banner"
+  /><br /><a href="#abbildung11">Abbildung 11: Burger King AR Banner</a>
+</p>
+<p>Onlinebanner mit Augmented Reality von Burger King.</p>
+<p>
+  Zum aktivieren der Anwendung muss ein Dollar-Schein vor die Webcam Gehalten
+  werden.
+</p>
+<p>
+  Wenn der Betrachter im Bild ist bekommt er eine virtuelle Burger King-Maske
+  aufgesetzt.
+</p>
+
+<h5>VisaPix Plakatwerbung <a href="#quelle5">[5]</a></h5>
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/visapix.jpg"
+    alt="VisaPix Plakatwerbung"
+  /><br /><a href="#abbildung12">Abbildung 12: VisaPix Plakatwerbung</a>
+</p>
+<p>Plakatwerbung der Firma VisaPix</p>
+<p>Das Plakat erkennt das Geschlecht und die Altersgruppe des Betrachters.</p>
+<p>
+  Je nach Betrachter k&ouml;nnen verschiedene Werbungen Eingeblendet werden.
+</p>
+
+<h3><a id="Darstellungstechniken"></a>Darstellungstechniken</h3>
+
+<h4>See-through head-mounted-display</h4>
+
+<ul>
+  <li>70% reflektierender Spiegel</li>
+  <li>Realit&auml;t nur noch 30% sichtbar</li>
+  <li>Szenengenerator projiziert Informationen ins Sichtfeld des Benutzers</li>
+</ul>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/seethroughheadmounteddisplay.png"
+    alt="See Through Head Mounted Display"
+  /><br /><a href="#abbildung7"
+    >Abbildung 7: See Through Head Mounted Display</a
+  >
+</p>
+
+<h4>Video see-through HMD</h4>
+
+<ul>
+  <li>Display vor Auge des Betrachters</li>
+  <li>
+    Reale Welt wird mit virtueller Welt vermischt und auf dem Display
+    dargestellt
+  </li>
+  <li>Blue Screen Technik</li>
+</ul>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/videoseethroughheadmounteddisplay.png"
+    alt="Video See Through Head Mounted Display"
+  /><br /><a href="#abbildung8"
+    >Abbildung 8: Video See Through Head Mounted Display</a
+  >
+</p>
+
+<h4>Monitor basierte Displays</h4>
+
+<ul>
+  <li>Unabh&auml;ngig von der Position des Betrachters</li>
+  <li>
+    Realit&auml;t wird an anderer Stelle aufgenommen und auf dem Monitor
+    dargestellt
+  </li>
+</ul>
+
+<p class="img">
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/monitorbaseddisplay.png"
+    alt="Monitor basierte Displays"
+  /><br /><a href="#abbildung9">Abbildung 9: Monitor basierte Displays</a>
+</p>
+
+<h3><a id="Interaktion"></a>Interaktion</h3>
+
+<ul>
+  <li>Datenhandschuh</li>
+  <li>Ray-casting (Strahlauswahl)</li>
+  <li class="sublist">
+    <ul>
+      <li>Virtueller Mauszeiger</li>
+    </ul>
+  </li>
+  <li>Arm-extension</li>
+  <li class="sublist">
+    <ul>
+      <li>6DOF Auswahl</li>
+    </ul>
+  </li>
+</ul>
+
+<h3><a id="Aktueller_Stand"></a>Aktueller Stand der Technik</h3>
+
+<ul>
+  <li>Realit&auml;t ist noch gut von virtueller zu unterscheiden</li>
+  <li class="sublist">
+    <ul>
+      <li>Virtuelle Objekte sind gut als solche erkennbar</li>
+      <li>
+        Head-mounted-displays behindern den Benutzer oder sind wenigstens
+        st&ouml;rend
+      </li>
+    </ul>
+  </li>
+  <li>L&ouml;sungsansatz</li>
+  <li class="sublist">
+    <ul>
+      <li>
+        Realistischere virtuelle Objekte erzeugen -> Leistungsf&auml;higere
+        mobile Prozessoren und Grafikkarten ben&ouml;tigt
+      </li>
+      <li>
+        Bessere Techniken gesucht, um Objekte ins Sichtfeld zu projizieren
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3><a id="Beispielvideos"></a>Beispielvideos</h3>
+
+<h4>iQ Toyota augmented reality tech</h4>
+
+<p>
+  <a href="http://www.youtube.com/v/1_7NW_u3VFo" target="_blank"
+    >externer Link</a
+  >
+</p>
+
+<h4>BMW augmented reality</h4>
+
+<p>
+  <a href="http://www.youtube.com/v/P9KPJlA5yds" target="_blank"
+    >externer Link</a
+  >
+</p>
+
+<h4>ARhrrrr - An augmented reality shooter</h4>
+
+<p>
+  <a href="http://www.youtube.com/v/Cix3Ws2sOsU" target="_blank"
+    >externer Link</a
+  >
+</p>
+
+<hr />
+
+<h2>Abbildungsverzeichnis</h2>
+
+<p>
+  <a id="abbildung1"></a>[1] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 4
+</p>
+<p>
+  <a id="abbildung2"></a>[2] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 5
+</p>
+<p>
+  <a id="abbildung3"></a>[3] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 6
+</p>
+<p>
+  <a id="abbildung4"></a>[4] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 7
+</p>
+<p>
+  <a id="abbildung5"></a>[5]
+  http://wearables.unisa.edu.au/arquake/pictures/img_7872-hf.jpg
+</p>
+<p><a id="abbildung6"></a>[6] http://en.wikipedia.org/wiki/File:HUD_view.jpg</p>
+<p>
+  <a id="abbildung7"></a>[7] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 9
+</p>
+<p>
+  <a id="abbildung8"></a>[8] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 10
+</p>
+<p>
+  <a id="abbildung9"></a>[9] Ronald Ecker, "Benutzerschnittstellen f&uuml;r
+  Erweiterte Realit&auml;t".
+  http://www.hcilab.org/events/ui-update1.0/01-Benutzerschnittstellen_fuer_erweiterte_Realitaeten-Ronald_Ecker.pdf.
+  S. 11
+</p>
+<p>
+  <a id="abbildung10"></a>[10] Lego Digital Box -
+  http://www.attractionsmagazine.com/blog/wp-content/uploads/2009/03/lego-digital-package.jpg
+</p>
+<p>
+  <a id="abbildung11"></a>[11] Burger King AR Banner -
+  http://www.banner-advertising.info/wp-content/uploads/2009/11/BURGER_KING.png
+</p>
+<p>
+  <a id="abbildung12"></a>[12] Visapix -
+  http://www.visapix.com/media/videos/Demo_Altersklassifikation.html
+</p>
+
+<h2>Quellenverzeichnis</h2>
+
+<p>
+  <a id="quelle1"></a>[1] Wikipedia.
+  http://de.wikipedia.org/wiki/Erweiterte_Realit&auml;t
+</p>
+<p>
+  <a id="quelle2"></a>[2] Ronald T. Azuma, "A survey of augmented reality".
+  Presence: Teleoperators and Virtual Environments, August 1997.
+</p>
+<p>
+  <a id="quelle3"></a>[3] Lego Digital Box -
+  http://atlantis.lego.com/de-de/augmented/default.aspx
+</p>
+<p>
+  <a id="quelle4"></a>[4] Burger King -
+  http://www.bannerblog.com.au/2009/10/bk_dollar_menu_augmented_reality_banner.php
+</p>
+<p>
+  <a id="quelle5"></a>[5] Visapix -
+  http://www.visapix.com/media/videos/Demo_Altersklassifikation.html
+</p>

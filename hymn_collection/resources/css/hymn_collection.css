@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  margin: unset;
+}
+
+body > * > div {
+  height: 100%;
+}
+
+#element {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  flex-grow: 1;
+}
+
+#link a,
+footer span {
+  font-size: 15px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#logos,
+#link,
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  display: flex;
+  flex-direction: column;
+}
+
+#logos {
+  justify-content: space-around;
+}
+
+#logos img {
+  max-width: 300px;
+}
+
+#crosscomits {
+  max-width: 210px !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.lang-flag {
+  position: relative;
+}
+
+.lang-flag > i {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  right: 0.5em;
+  padding: 0.3em;
+}
+
+@media print {
+  header,
+  nav,
+  footer {
+    display: none !important;
+  }
+}

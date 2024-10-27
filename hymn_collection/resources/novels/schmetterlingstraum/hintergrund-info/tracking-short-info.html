@@ -1,0 +1,71 @@
+<h2>Keyingmethoden, kurz und knapp erklärt!</h2>
+
+<p><h3>Chroma Key</h3>Bei diesem Verfahren wird in einem Farbraum ein Farbton ausgewählt, welche in dem Bild ersetzt werden. Da dieser Keyer im HSV die Bearbeitung macht, ist er ziemlich flexibel und selektiever. So können feine Abstimmungen in der Farbnuance, im Sättigungsgrad und/oder in der Helligkeit vorgenommen werden. Die Justierung kann aber auch in RGB, YcbCr, RGBCMYL oder nur in einen der Farbkanälen stattfinden.</p>
+
+<p><h3>Color Difference Key</h3>Diese Methode ist die meist benutzte Methode. Hier kommt auch die Blue-Box zum Einsatz. Der Keyer erzeugt eine Maske aus der Farbdifferenz zwischen rot und grün. Die Faustregel lautet: Die dichtere Farbe (rot oder grün) wird vom blauen Kanal abgezogen. Die hieraus erzeugte Maske hat auch den Vorteil, dass sie transparent Kanten erzeugt und somit die Übergänge von Darstellern und dem hinzugefügten Hintergrund einen Verlauf haben können.</p>
+
+<p><h3>3D Keying</h3>Beim 3D-Keying werden die Bildpunkte im dreidimensionalen Raum abgebildet. Um diese Positionsinformation von X, Y und Z zu speichern wird das mit R, G und B gemacht. Je nach Farbwert, kann dann gesagt werden, welche der Pixel transparent sind oder nicht.</p>
+
+<p><h3>Luma Key</h3>Aus einem RGB-Bild wird ein monochromes Graustufenbild errechnet. Jetzt kann das Mischverhältnis der drei Farbkanäle justiert werden, damit der Vordergrund zum Hintergrund ein starkes Kontrastverhältnis hat. Wichtig ist, dass der zu keyende Gegenstand wirklich gut trennbar ist vom Hintergrund durch das starke Kontrastverhältnis.</p>
+
+<p><h3>Difference Key (Difference Matt)</h3>Diese Methode ist sehr einfach von der Theorie, aber in der Praxis sehr komplex. Die Maske wird durch die Differenz zweier Bilder erzeugt. So wird erst ein Bild ohne den zu keyenden Objekten aufgenommen und durch die Unterschiede aus dem Standbild, der nur den Hintergrund beinhaltet, und dem Bild mit dem zu maskierenden Objekt die Maske erzeugt. Da bei Kamerafahrten oder Einflüsse von anderen Eigenschaften, die es verhindern ein exaktes Bild vom Hintergrund wieder zu erreichen, verhindern, erweist es sich nicht gerade als eine einfache Methode.</p>
+
+<p><h3>Depth Key</h3>Hier wird zu dem Bild eine Tiefeninformation aufgenommen. Dadurch ist es möglich zu sagen, alles ab einem bestimmten Tiefenwert solll transparent sein. Alles was vor diesem Schwellenwert liegt wird weiß und alles andere dahinter wird schwarz, wodurch eine Maske für den Alpha-Kanal gewonnen wird und das Bild gestanzt werden kann.</p>
+
+<p><h3>Linear Key</h3>Diese Methodik ist dem Depth Keying ähnlich. Allerdings wird eine Grauabstufung vorgenommen, womit es möglich ist auch halb-transparente Pixel zu erzeugen.</p>
+
+<h1>Kameratracking - Kamerabewegungen verfolgen</h1>
+<p>Da im virtuellen Studio die Realität und die Virtualität verbunden werden sollen, muss eine Verbindung zwischen den realen Schauspielern und dem virtuellen Hintergrund geschaffen werden. Da für den virtuellen Hintergrund auch eine virtuelle Kamera existiert und Änderungen die nicht an der virtuellen und realen Kamera synchron durchgeführt werden auffallen müssen die Kamerabewegungen der realen Kamera verfolgt und an die virtuelle Kamera übertragen werden. Diesen Vorgang nennt man Kameratracking. Dabei gibt es eine Vielzahl von Eigenschaften, die bei realer und virtueller Kamera synchronisiert werden müssen, damit das erzeugte Bild auch glaubhaft bleibt.<br>Am wichtigsten ist die Position und die Blickrichtung der Kamera. Bei einer statischen Kamera kann man die virtuelle Kamera noch leicht per Hand einstellen. Wenn allerdings Kamerafahrten gemacht werden sollen, dann wird das schon schwerer. Außerdem können die Einstellungen der Kamera wie Zoom, Blende oder Schärfe abgefragt werden. Im folgenden werden primär die Techniken betrachtet, die auf Position und Blickrichtung der Kamera achten.</p>
+<h1>Techniken</h1>
+<h2>Mustererkennung</h2>
+<p>Bei der Mustererkennung wird auf die blaue Wand in einem hellerem, oder dunklerem Blauton ein Muster aufgemalt. Die Software kann dann anhand der Änderungen an diesem Muster die Änderungen der Kamerabewegung nachvollziehen. Die Berechnung der neuen Position ist etwas aufwändig. Ein Stativ sorgt für eine ruhigere Kamera, was wiederum für weniger Rechenaufwand sorgt. Da die Position anhand des Musters berechnet wird, muss das System erst kalibriert werden und um zu funktionieren müssen ca. 10% des Musters mindestens zu sehen sein.</p>
+<h2>Mechanische Sensoren</h2>
+<p>Eine teurere aber dafür sehr viel genauere Lösung bieten die Mechanischen Sensoren. Diese sind in speziellen Stativen untergebracht. Bewegt man die Kamera bewegt sich auch der Sensor und überträgt die Daten zu der Anwendung, die die Berechnung der virtuellen Bilder übernimmt. Die Mechanischen Sensoren sind sehr präzise, aber durch das Stativ sind sie nicht sehr frei beweglich. Mit Hilfe von Schienen kann man etwas mehr Bewegung erzeugen, indem man über einen Sensor die Änderung der Position auf der Schiene abfragt, aber richtige Freiheit bietet dieses System nicht.</p>
+<h2>Infrarote Sensoren</h2>
+<p>Bei den Infraroten Sensoren wird der Bereich des virtuellen Studios mit mindestens einer infraroten Kamera überwacht. An der filmenden Kamera befindet sich dann ein Ziel (Target), das die Kameraposition anzeigt. Das Ziel kann dabei aktiv sein, das heißt, dass er ein Infrarotes Signal aussendet, das von den Infrarotkameras empfangen wird. Das Ziel kann aber auch passiv sein, das heißt, dass das Ziel nur reflektiert. Der Bereich muss dann mit einer Infrarotleuchte beleuchtet werden. Da das infrarote Licht Einfluss auf das Kamerabild haben kann wird es meist in kleinen Blitzen asynchron zum Studiotakt ausgesendet. Der Studiotakt gibt an, wann ein Einzelbild aufgenommen wird. Das geschieht bis zu 30 mal pro Sekunde. Diese Technik bietet eine freie Position im Raum. Leider ist das Ziel, das an der Kamera angebracht wird sehr groß. Dadurch sollte die Kamera auf ein rollbares Stativ angebracht werden.</p>
+
+
+<p>
+<h1>
+    Interaktion im virtuellen TV-Studio
+</h1>
+</p>
+<p>
+<h2>Sinn und Zweck</h2>
+<ul>
+    <li>Schatten</li>
+    <li>Reflektion</li>
+    <li> Manipulation von Objekten</li>
+    <li>Problem: Darsteller kann Objekte nicht sehen</li>
+    <li>Schon das Betrachten von bewegten Objekten schwierig</li>
+</ul>
+Um Echtzeit-Schatten in virtuellen Studios darzustellen, muss die Position der Darsteller bekannt sein.<br>
+Auch für Reflektionen muss man die Position der Darsteller kennen.<br>
+Bei der Manipulation von virtuellen Objekten ergibt sich auch noch das Problem, dass die Darsteller die Objekte nicht einmal sehen können.
+</p>
+<p>
+<h2>Techniken und Unterschiede</h2>
+<ul>
+    <li> Schatten:</li>
+    <li>Kein exakter Schatten</li>
+    <li> Kamera an Lichtquellenposition</li>
+    <li>Reflektion:</li>
+    <li>Spiegelung in Plexiglasplatte</li>
+    <li>Umgedrehtes Bild des Darstellers</li>
+</ul>
+Um Schatten darzustellen, gibt es einmal die Möglichkeit, keinen exakten Schatten darzustellen, sondern einen dunklen Punkt unter dem Darsteller, wie es in älteren Videospielen auch gemacht wurde. Dies dient hauptsächlich nicht dazu, einen realistischen Effekt zu erzeilenb, sondern dem Zuschauer einschätzen zu lassen, wo auf der virtuellen Welt der Schauspieler steht, was ohne Schatten schwierig ist, so dass es aussieht, al ob der Scahuspieler schwebt.<br>
+Eine andere Technik zur Schattendarstellung besteht darin, dass aus der Richtung der virtuellen Lichtquelle eine Kamera filmt, und das Bild des Darstellers als Maske für den Schatten verwendet wird. So lassen sich Schatten darstellen, die exakt der Position der Darsteller entsprechen. Probleme ergeben sich allerdings, wenn der Schatten nicht auf eine gerade Ebene fallen soll, sondern vielleicht auch auf ein Objekt o.ä..<br><br>
+Eine sehr einfache Möglichkeit, Reflexionen darzustellen, ist, eine Plexiglasplatte auszulegen, auf der sich aus einem bestimmten Blickwinkel die Szene tatsächlich spiegelt.<br>
+Eine weitere Möglichkeit besteht darin, das umgedrehte Bild des Darstellers zu nehmen und es umgedreht unter ihm einzublenden. Dabei muss wieder die Position des Darstellers exakt berechnet werden.
+</p>
+<p>
+<h2>Manipulation von Objekten</h2>
+<ul>
+    <li>Markierungen (unbewegte Objekte)</li>
+    <li>Projektion von Objekten auf Bluescreen</li>
+    <li>Objektverfolgung</li>
+</ul>
+Interaktion mit virtuellen Objekten oder Darstellern bringt das Problem mit sich, dass die Darsteller die virtuellen Objekte nicht sehen können. Das heißt, sie wissen weder, wo sie sich befindet, wie sie aussehen, oder was sie gerade machen.<br>
+Um dem abzuhelfen, gibt es bei unbewegten Objekten die Möglichkeit, mit Markierungen zu arbeiten, an denen sich die Darsteller orientieren können.<br>
+Um mit bewegten Objekten interagieren zu können, gibt es eine Technik, bei der die virtuellen Objekte in das virtuelle Studio, auf den Bluescreen zu projezieren, so das die Darsteller einschätzen können, wo die Objekte sind, oder was virtuelle Darsteller gerade machen.
+</p>

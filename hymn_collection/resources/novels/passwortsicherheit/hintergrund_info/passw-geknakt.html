@@ -1,0 +1,37 @@
+<div>
+  <h2>Wie werden Passwörter “geknackt”?</h2>
+  Da es sich bei Passwörtern um einfache Texte handelt, die einfach zu merken
+  sein müssen, können diese durch Raten—sei es automatisiert oder
+  manuell—herausgefunden werden. Diese in der Literatur “guessing” genannte
+  Methode funktioniert auch noch unter der Annahme, dass man zu einem Passwort
+  lediglich eine “Ja/Nein” Antwort erhält. In der Praxis handelt es sich dabei
+  entweder um Offline- oder Online-Tests [1], das bedeutet technisch:
+  <p>
+    <b>Offline:</b>
+    ein Datensatz an Passwörtern liegt vor (bspw. von einem digitalen
+    Diensteanbieter gestohlen) und enthält eine Liste an Hashes von Passwörtern.
+    Diese Hashes sind nur in eine Richtung berechenbar und daher wird durch ein
+    Passwort-Generator ein Passwort erstellt, dessen Hash ermittelt und mit den
+    vorliegenden Hashes aus dem Datensatz verglichen. So kann man mit
+    entsprechender Rechenleistung einen solchen Datensatz in Klartext-Passwörter
+    umwandeln (sogenanntes cracking) und erhält somit eine Liste von echten
+    Passwörtern, die bspw. von einem Diensteanbieter stammen und somit dazu
+    genutzt werden können bei diesem Anbieter Accounts zu übernehmen. Die größte
+    Gefahr dieser Offline-Attacken besteht in der Praxis darin, dass viele
+    Menschen für unterschiedliche Dienste die selben oder nur leicht veränderte
+    Passwörter nutzen. Das bedeutet, wenn es eine Liste mit Passwörtern von
+    Dienst A gibt (bspw. durch Datendiebstahl bei Dienst A), kann das dazu
+    führen, dass auch Zugriff auf Accounts bei Dienst B möglich sind (Stichwort:
+    credential stuffing [2]). Dazu werden lediglich die Passwörter von Dienst A
+    bei Dienst B ausprobiert.
+  </p>
+
+  <p>
+    <b>Online:</b> ein digitaler Dienst wird direkt von einem Angreifer
+    angesprochen und Passwörter “durch- probiert”. Hier sind nur wenige Versuche
+    möglich, da die meisten Dienste nur eine bestimmte Anzahl an Versuchen
+    zulassen, bevor es zu einer Sperre kommt. In der Praxis sind diese Angriffe
+    daher nur in Verbindung mit einem guten Passwort-Generator möglich, der
+    bereits bei ersten Versuchen gute Ergebnisse erzielt.
+  </p>
+</div>

@@ -1,0 +1,167 @@
+<h2>Virtuelle TV Studios: Keying</h2>
+
+<p class="lead">Definitionen</p>
+<p>
+  <strong>Compositing</strong> ist ein Begriff aus der Video- /
+  Filmnachbereitung und beschreibt das Zusammenf&uuml;hren von zwei oder mehr
+  voneinander getrennt aufgenommenen Elementen zu einem stimmigen Gesamtbild
+  (i.d.R. reales und virtuelles Bild).
+</p>
+<p>
+  <strong>Keying</strong> ist ein Begriff aus der Video- / Filmnachbereitung und
+  beschreibt das Freistellen von Bildelementen vom Hintergrund. Dabei wird eine
+  Maske(Alphakanal) erstellt, die f&uuml;r jeden Bildbereich oder Pixel eine
+  Transparenz definiert.
+</p>
+<p>
+  Um ein grundlegendes Verst&auml;ndnis von der Technik in virtuellen TV-Studios
+  zu erhalten, sollte man zun&auml;chst den Begriff des
+  <b>Compositing</b> begreifen. Abgeleitet vom englischen <i>to compose</i> =
+  kombinieren, bedeutet dieser Begriff nichts weiter als die Mischung - oder
+  besser gesagt, die Mischung von virtuellem und realem Bildraum. Der Zuschauer
+  soll sp&auml;ter nicht mehr erkennen, welche von beiden Bildebenen real und
+  welche virtuell ist. Beide verschmelzen zu einem einzigen Gesamtbild. <br />
+
+  <br />
+  Um diesen Effekt zu erlangen, ben&ouml;tigt man sogenannte <b>Keys</b>. Der
+  Begriff Key zielt im Grunde auf das Schl&uuml;sselloch ab, das als Schablone
+  dient, wenn durch dieses hindurch gesehen wird. Solch ein Key gibt den Bereich
+  des realen Bildes an, welcher sp&auml;ter ausgeblendet werden soll. Der
+  Grundgedanke besteht einfach darin, dass ein Teil des Bildes transparent
+  gemacht werden soll, damit ein anderer Teil des Bildes durchscheinen kann. Um
+  als Endergebnis einen visuellen Effekt in Form einer Mischung von realem und
+  virtuellem Bild zu erzielen, gibt es verschiedene Keying Verfahren. Das Ziel
+  ist es, eine m&ouml;glichst pr&auml;zise Alpha-Maske zu erstellen
+  (Transparenzwerte der einzelnen Bildpunkte), wobei eine schwarze Fl&auml;che
+  100% transparent und eine wei&szlig;e Fl&auml;che deckend ist. Einige der
+  Keying-Verfahren setzen voraus, dass sich das "auszukeyende" Objekt vor einem
+  einfarbigen Hintergrund (Blue-Box) befindet. Die verschiedenen
+  Keying-Verfahren k&ouml;nnen miteinander kombiniert werden, um ein besseres
+  Ergebnis zu erzielen.
+  <br />
+</p>
+
+<hr />
+<h3>Keying - Verfahren</h3>
+
+<h4>1. Verfahren - Color Keying:</h4>
+<p>
+  Beim Color Keying wird ein bestimmtes Farbspektrum aus dem Farbraum
+  herausgeschnitten. Je nach dem, ob es sich um eine einzelne Farbe handelt,
+  oder eher um eine Mischfarbe, wird entweder der
+  <strong>Chroma-Key</strong> oder die <strong>Ultimatte</strong> benutzt (<em
+    >siehe Abbildung 1.1</em
+  >) [<em>Bildreferenz - siehe Hinweis unten</em>]. Ein bekanntes Beispiel
+  f&uuml;r den Chroma-Key (<em> Abb. 1.1, links</em>) ist der Einsatz des
+  sogenannten Blue-Box-Verfahrens, bei dem ein Schauspieler vor einer blauen
+  Leinwand agiert und im sp&auml;ter bearbeitetem Bild bzw. Film z.B. auf einer
+  Mondlandschaft zu sehen ist.
+  <br />
+  Falls der zu stanzende Hintergrund nicht homogen einfarbig ist, wird
+  &uuml;blicherweise die Ultimatte (<em>Abb. 1.1, rechts</em>) verwendet. Hier
+  wird um den genauen Farbbereich herum mit immer weniger werdender Deckkraft
+  nach au&szlig;en hin gestanzt. Die resultierende Alphamaske beinhaltet somit
+  auch Graustufen, die entsprechende halbtransparente Werte repr&auml;sentieren.
+</p>
+<div>
+  <img
+    src="resources/novels/schmetterlingstraum/hintergrund-info/media/keying.jpg"
+    alt="keying"
+  />Abbildung 1.1 - Color Keying
+</div>
+
+<br />
+
+<h4>2. Verfahren - Difference Keying:</h4>
+<p>
+  Bei dem Difference-Keying-Verfahren wird im Gegnsatz zu den meisten anderen
+  Keying-Verfahren keine Blue-Box ben&ouml;tigt. zun&auml;chst wird ein festes,
+  stillstehendes Hintergrundbild erkannt. Danach folgt das sich bewegende Objekt
+  oder eine sich bewegende Person. Wenn beide Bilder &uuml;bereinander gelegt
+  werden, kann die Differenz aus diesen Bildern berechnet werden. Die dadurch
+  herausgestanzte Person kann nun vor einen beliebigen anderen Hintergrund
+  gesetzt werden. Somit ist es beispielsweise m&ouml;gar den Eindruck zu
+  erwecken, die Person befinde sich in einem Raum oder am Strand, wo sie sich
+  tats&auml;chlich aber gar nicht aufh&auml;lt(<em>siehe Abbildung 1.2</em>).
+  Ein gro&szlig;er Nachteil dieses Verfahrens ist, dass dies nur mit statischen
+  Bildern, also mit einem Stativ funktioniert. Die kleinste Ver&auml;nderung
+  bzw. Verwackelung des Bildes oder Beleuchtungsschwankungen k&ouml;nnen zu
+  Bildfehlern f&auml;hren.
+</p>
+<div>
+  <p>
+    <img
+      src="resources/novels/schmetterlingstraum/hintergrund-info/media/difference.jpg"
+      alt="difference_keying"
+    />Abbildung 1.2 - Difference Keying
+  </p>
+</div>
+
+<br />
+
+<h4>3. Verfahren - Depth Keying</h4>
+<p>
+  F&uuml;r das Depth-Keying (<em>Abb. 1.3</em>)ist es notwendig, die
+  Tiefeninformation der einzelnen Bildpixel zu kennen. Sofern diese
+  Informationen noch nicht vorliegen, werden spezielle Ger&auml;te
+  ben&ouml;tigt, um die Tiefenwerte der einzelnen Bilder messen zu k&ouml;nnen.
+  Aus dem Z-Kanal wird nun der Tiefenwert bzw. mehrere Tiefenwerte von dem
+  "auszukeyenden" Objekt ausgew&auml;hlt. Alle anderen Tiefenwerte werden
+  transparent gemacht.
+</p>
+<div>
+  <p>
+    <img
+      src="resources/novels/schmetterlingstraum/hintergrund-info/media/dephtkeying.jpg"
+      alt="depthkeying"
+      class="img-fluid"
+    /><br />Abbildung 1.3 - Depth Keying
+  </p>
+</div>
+<h3>4. Verfahren - Luma Keying</h3>
+<p>
+  Beim Luma Keying (Luminanz-Keying) wird zuerst ein Helligkeitswert definiert.
+  Danach wird jedes Pixel des Bildes, das den definierten Helligkeitswert hat,
+  Transparent gesetzt. Der Vorteil dieses Verfahren ist ein Starker Kontrast
+  zwischen einen m&ouml;glichen Objekt und den Hintergrund des Bildes.
+</p>
+<br />
+<em
+  ><u>Hinweis</u>: Die oben aufgef&uuml;hrten Grafiken stammen aus
+  Eigenfertigung von Christian Lacher und Christian Meller</em
+>
+<hr />
+<h4>Weiterf&uuml;hrende Links (Quellen):</h4>
+<ul>
+  <li>
+    <a href="http://de.wikipedia.org/wiki/Keying" target="_blank"
+      >Wikipedia - Keying</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://de.wikipedia.org/wiki/Video-/Filmnachbearbeitung"
+      target="_blank"
+      >Wikipedia - Video-/Filmnachbearbeitung</a
+    >
+  </li>
+  <li>
+    <a href="http://www.tzi.de/tzikeyer/index.html" target="_blank"
+      >Blue Screen Material</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://www.slashcam.de/katalog/Filmpraxis_Filmen-Keying.html"
+      target="_blank"
+      >Filmpraxis - Keying</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://www2.inf.fh-rhein-sieg.de/mi/lv/vr/ws00/08_vistu1/vistu1.PDF"
+      target="_blank"
+      >Virtuelle TV-Studios</a
+    >
+  </li>
+</ul>

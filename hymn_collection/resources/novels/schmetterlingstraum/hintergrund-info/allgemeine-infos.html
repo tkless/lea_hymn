@@ -1,0 +1,366 @@
+﻿<h1 align="center">Hintergrundmaterial</h1>
+<div id="bodyContent">
+  <h3 id="siteSub">From IThinkHere</h3>
+  <!-- start content -->
+  <p>
+    Die virtuelle Realität ist eine vom Computer generierte Umgebung, die dem
+    Benutzer glaubhaft vorgaukelt, er befinde sich in einer realen Umgebung. Es
+    handelt sich etwa um persistent hinterlegte Daten (Landschaft/Umgebung), die
+    üblicherweise aus 3D-Modellen und dazugehörigen Daten wie z.B. Texturen
+    besteht. Jedes virtuelle Objekt hat eine Position im Raum und gewisse
+    Attribute. So werden beispielsweise auch physikalische Effekte wie
+    Elastizität oder Gravitation simuliert.
+  </p>
+  <p>
+    Das Rendern der Umgebung findet heutzutage nicht mehr mittels eines
+    Software-Renderers auf einer CPU, sondern für gewöhnlich in Hardware auf der
+    GPU statt. Einzelne Dinge wie beispielsweise die genannten physikalischen
+    Effekte können aber sehr wohl noch auf der CPU berechnet werden, aber auch
+    hier existiert ein Trend zu dedizierter Hardware.
+  </p>
+  <p>
+    Eine &quot;Erkundung&quot; der Umgebung ist beispielsweise mittels eines
+    Desktop-VR-Systems oder eines immersiven VR-Systems möglich. Dabei findet
+    bei einem Desktop-VR-System der herkömmliche Bildschirm Verwendung. Denkbar
+    ist der Einsatz von zusätzlicher Hardware wie z.B. Shutterbrillen.
+  </p>
+  <p><br /></p>
+  <hr />
+  <p>
+    <br />
+    Mit einem Immersiven System taucht der Benutzer ein oder ist umgeben von der
+    Virtuellen Umgebung. Der Begriff &quot;Eintauchen&quot; beschreibt dabei im
+    Idealfall eine totale Verschmelzung zwischen virtueller und wirklicher
+    Realität, so dass eine Unterscheidung nicht mehr möglich ist. Ein ideales
+    IVR-Systen könnte anhand der folgenden Punkte charakterisiert werden:
+  </p>
+  <ul>
+    <li>
+      die Navigation im dreidimensionalen Raum sollte stets die Kopf, bzw.
+      Augenbewegungen als Referenz haben
+    </li>
+    <li>
+      die Bilder sollten sich dem Nutzer stereoskopisch darstellen, um den
+      Eindruck von räumlicher Tiefe zu erzeugen
+    </li>
+    <li>
+      die Welt sollte sich in voller Grösse und in korrektem Verhältnis zu den
+      Menschlichen Proportionen darstellen
+    </li>
+    <li>
+      dem Benutzer sollte die Interaktion mit Objekten der Welt ermöglicht
+      werden (z.B. mit Datenhandschuhen)
+    </li>
+    <li>
+      die Welt sollte die Interaktion mit allen menschlichen Sinnen ermöglichen
+    </li>
+    <li>
+      über Verteilte Virtuelle Umgebungen sollte die Interaktion mit anderen
+      Benutzern möglich sein, die sich dem Nutzer durch Avatare darstellen
+    </li>
+  </ul>
+  <p>
+    Zur Zeit gibt es jedoch keine Systeme, die alle diese Anforderungen
+    zufriedenstellend erfüllen können. Wirkliche Immersivität bleibt also nach
+    wie vor unerreicht.
+  </p>
+  <p>
+    Derzeitige immersive Systeme bedienen sich überwiegend folgender Mittel:
+  </p>
+  <ul>
+    <li>
+      Ein
+      <a
+        href="multi_display_system.html"
+        title="Multi Display System"
+        target="_self"
+        >Multi Display System</a
+      >
+      (meist ein CAVE)
+    </li>
+    <li>
+      Ein
+      <a
+        href="head_mounted_display.html"
+        title="Head Mounted Displays"
+        target="_self"
+        >Head Mounted Display</a
+      >
+      (HMD)
+    </li>
+  </ul>
+  <p>
+    Immersive VR Systeme bieten dem Benutzer ein größeres field of view als
+    Desktop VR Systemen.
+  </p>
+  <p><br /></p>
+  <hr />
+  <p>
+    Ein Multi-Display-System dient zur Erweiterung des dem Benutzer zur
+    Verfügung stehenden Sichtbereichs. Bei Verwendung eines Projektors ist
+    zwischen Front- und Rückprojektion zu unterscheiden. Viele Simulatoren
+    nutzen das Vorhandensein mehrerer Displays zur Darstellung unterschiedlicher
+    Blickrichtungen (vorne, hinten, links, rechts). Ist der Benutzer völlig von
+    den darstellenden Geräten (Leinwände) umgeben, spricht man von einer CAVE
+    (CAVE Automatic Virtual Environment). Eine weitere Möglichkeit ist die
+    Projektion in eine Kuppel (könnte man allerdings als grenzwertig
+    betrachten...ist ja nicht wirklich Multi-Display, oder?). Ein großer Vorteil
+    von Multi-Display-Systemen (besonders im größeren Sinne, also wie bei einer
+    CAVE) ist die Tatsache, dass der Benutzer die Umgebung wie in der realen
+    Welt betrachten kann, indem er sich einfach ganz normal umsieht.
+  </p>
+  <p><br /></p>
+  <hr />
+  <p>
+    Ein Head Mounted Display besteht aus zwei Monitoren die vor den Augen des
+    Benutzers installiert werden. Spezielle Optiken erlauben dem Benutzer, auf
+    den Miniaturbildschirm zu schauen.Üblicherweise enthalten die HMDs
+    Kopfhörer, so dass der Benutzer in der virtuellen Welt auch hören kann.
+    Außerdem besitzen sie meist einen Head Tracker. Dieser Bestimmt die Position
+    und die Orientierung im Raum. Wenn der Benutzer sich umschaut wird diese
+    Information ständig zum verarbeitenden System übertragen. Dieses berechnet
+    dann die passende Ansicht, die der Benutzer in der Virtuellen Umgebung sehen
+    sollte. Diese wird dann auf den Miniatur-Displays dargestellt.
+  </p>
+  <p><br /></p>
+  <hr />
+
+  <h2>Tracker</h2>
+  <p>
+    In HMD sind meist Tracker eingebaut. Tracker bestimmen die Ausrichtung und
+    Position des Körperteils (Kopf/Augen) im Raum. Tracker die nur die
+    Orientierung erkennen (yaw, pitch, roll) werden als 3-freiheitsgradig
+    (3DOF), Tracker mit Orientierung (yaw, pitch, roll) und Position (x,y,z) als
+    6DOF bezeichnet.
+  </p>
+  <p>
+    Objekte in der Virtuellen Welt können mit &bdquo;Data Gloves&ldquo;
+    manipuliert werden. Ein &bdquo;Data Glove&ldquo; misst die Biegung der
+    Finger des Benutzers. Der Benutzer kann so z.B. ein virtuelles Objekt nehmen
+    und an eine andere Stelle legen. Auch ein Werfen von Objekten ist so
+    möglich. Die Position und Orientierung wird mit einen 6DOF-Tracker gemessen.
+    Wenn es sich um einen &bdquo;Force Feedback Data Glove&ldquo; handelt ist
+    der Benutzer in der Lage das virtuelle Objekt zu verformen und das Objekt zu
+    fühlen.
+  </p>
+
+  <h2>Navigation</h2>
+  <p>
+    Um zu navigieren (gehen oder fliegen) kann ein Space-Controller verwendet
+    werden. Das kann ein normaler Joystick oder eine Maus (z.B. Space Mouse)
+    sein.
+  </p>
+  <p>
+    In immersiven Systemen nutzt man normalerweise einen Joysticks ohne Basis
+    als &bdquo;Space-Controller&ldquo;. Dies ermöglicht dem Benutzer den
+    Schreibtisch zu verlassen und mit der virtuellen Welt zu interagieren.
+  </p>
+
+  <h2>Interaktion</h2>
+  <p>
+    Ein Ziel auf lange Zeit ist die Entwicklung von kompletten Systemem für
+    semi- und voll-immersive VR. Diese Systeme werden dem Benutzer ermöglichen,
+    noch länger produktiv zu arbeiten, ohne dass Ermüdungserscheinungen
+    auftreten. Ein Großteil der Forschung auf dem Gebiet der Benutzerinterfaces
+    für immersive virtuelle Umgebungen fokussierte sich auf die Entwicklung von
+    grundlegenden Interaktionstechniken zum Auswählen, Manipulieren, Navigieren
+    und Erteilen von Befehlen. Aus den grundlegenden Interaktionstechniken
+    lassen sich ausgeklügeltere Interaktionstechniken zusammensetzen.
+  </p>
+  <p><br /></p>
+  <hr />
+  <p><strong>Cube:</strong></p>
+  <p>
+    - rückwärtige Projektion auf 3-6 Wände des Würfels - Perspektivische
+    Verzerrung an den Ecken - mit mehreren Leuten begehbar -
+    <strong>Cone:</strong> - Projektion von 3-4 Beamern - 240 &deg; Panorama
+    Display - keine Verzerrung, sehr viel Platz durch sehr breites Display -
+    Shutter Brillen
+  </p>
+  <p><strong>TWO-View:</strong></p>
+  <p>
+    - Getrackte Shutterbrillen für genau zwei User - zwei getrennte
+    Interaktionsgeräte - perspektivisch korrekt für beide User, durch getrennte
+    Projektion für beide User - L-Shape: Man steht sozusagen in der Szene, da
+    man auf einer von beiden Leinwänden steht
+  </p>
+  <p><strong>Responsive Workbench:</strong></p>
+  <p>
+    - 3d Projektion auf die Tischfläche durch einen von unten angebrachten
+    Spiegel
+  </p>
+  <p><br /></p>
+  <hr />
+  <p>
+    <br />
+    Technische Grenzen bei der Realisierung immersiver Umgebungen beziehen sich
+    beispielsweise auf die vollständige Integration der Interaktion aller Sinne
+    mit der Umgebung. So sind klassische Sinne wie Hören und Sehen noch relativ
+    leicht zu realisieren. Auch das Tasten ist mittels Force Feedback-Hardware
+    noch sinnvoll umsetzbar, Geruchs- und Geschmackssinn stellen jedoch ganz
+    andere Herausforderungen dar, da sie nicht so leicht zu simulieren sind.
+    Auch die Berücksichtigung von Emotionen des Benutzers - für wirkliche
+    Immersion durchaus von Bedeutung - stellt ein technisches Problem dar. Es
+    ist leicht vorstellbar, dass hier z.B. eine Messung von Hirnströmen o.ä.
+    stattfinden müsste.
+  </p>
+  <p>
+    Nimmt man das Standardbeispiel &quot;Holodeck&quot; zur Hand, so bleibt zu
+    sagen, dass technische Möglichkeiten zur Realisierung einer solchen Umgebung
+    nicht im Ansatz gegeben sind. Hier findet eine detaillierte Interaktion mit
+    kleinsten Details einer holographisch projezierten Umgebung statt. Dies
+    würde nicht nur enorme Rechenleistung, sondern auch (bislang?) nicht
+    vorhandene Technologien erfordern.
+  </p>
+  <p><br /></p>
+  <hr />
+  <p>
+    Sicht und Gehör sind die Hauptsinne des Menschen die man zur Zeit simuliert.
+    Aber auch fühlen (Siehe z.B. Data Gloves), Geruch und Geschmack werden bald
+    folgen.
+  </p>
+  <hr />
+  <ul>
+    <li>
+      <a
+        href="http://www.square-vision.de"
+        title="http://www.square-vision.de"
+        rel="nofollow"
+        >http://www.square-vision.de</a
+      >
+    </li>
+  </ul>
+  <p>Immersion Square:</p>
+  <p>
+    Das Projektionssystem der Immersion Square Technologie kann unterschiedlich
+    konfiguriert werden und somit auf den individuellen Bedarf der Benutzer
+    zugeschnitten werden. Die Standardkonfiguration des Immersion Squares
+    besteht aus einem mobilen Dreiwandprojektionssystem für
+    Rückprojektionsnutzung (3WPS), drei Daten- und Videoprojektoren (XGA
+    Auflösung 1024 x 768 Pixel) und einem PC Rechnersystem. Auf Wunsch können
+    auch 4, 5 oder 6-wändige Projektionssysteme sowie Systeme mit SXGA Auflösung
+    (1280 x 1024 oder 1365 x 1024) angeboten werden.
+  </p>
+  <p>
+    Das mobile Dreiwandprojektionssystem besteht aus einem Aluminium -
+    Multifunktionsrahmen mit 3 x b=2,6m x h=2m =16m&sup2; Fläche. Die
+    Projektionswände können variabel im Winkel von 90&deg; bis 135&deg;
+    (Innenwinkel) zueinander aufgestellt werden und sind in ihrer Größe frei
+    konfektionierbar.
+  </p>
+  <p>
+    Optional kann das 3WPS durch modulare Spiegelsysteme ergänzt werden. Je Wand
+    kommt ein seperates Spiegelsystemmodul zum Einsatz, so dass ein Aufstellen
+    zwischen 90&deg; und 135&deg; weiterhin möglich ist. Durch den Einsatz von
+    Spiegelsystemen wird der Raumbedarf verringert und das Gesamtsystem vor
+    unerwünschten Fremdlichteinflüssen geschützt. Diese Module basieren auf
+    einer Stahlrahmenkonstruktion zur Aufnahme und Justierung der Spiegel sowie
+    der Daten- und Videoprojektoren. Die Stahlrahmenkonstruktion ist mit
+    schwarzen feuerresistenten (B1) Stoff vollständig verkleidet und schirmt das
+    Gesamtssystem ab.
+  </p>
+  <p>
+    Je nach Anforderungen können verschiedene PC Systeme und Grafikkarten zum
+    Einsatz kommen. Im Lieferumfang enthalten ist ein Gyro-Presenter Paket,
+    sowie ein Dolby-Surround Sound System.
+  </p>
+  <p>Videos:</p>
+  <ul>
+    <li>
+      <a
+        href="http://www.square-vision.de/mm_videos.asp"
+        title="http://www.square-vision.de/mm_videos.asp"
+        rel="nofollow"
+        >http://www.square-vision.de/mm_videos.asp</a
+      >
+    </li>
+  </ul>
+  <hr />
+  <ul>
+    <li>
+      <a
+        href="http://www-vrl.umich.edu/intro/index.html"
+        title="http://www-vrl.umich.edu/intro/index.html"
+        rel="nofollow"
+        >http://www-vrl.umich.edu/intro/index.html</a
+      >
+    </li>
+    <li>
+      <a
+        href="http://www.5dt.com/virtualinfo.html"
+        title="http://www.5dt.com/virtualinfo.html"
+        rel="nofollow"
+        >http://www.5dt.com/virtualinfo.html</a
+      >
+    </li>
+    <li>
+      <a
+        href="http://www.cs.brown.edu/stc/interaction/ivr.html"
+        title="http://www.cs.brown.edu/stc/interaction/ivr.html"
+        rel="nofollow"
+        >http://www.cs.brown.edu/stc/interaction/ivr.html</a
+      >
+    </li>
+    <li>
+      <a
+        href="http://root.alsvartr.de/studium/IVE/bci_Body_Centred_Interaction.pdf"
+        title="http://root.alsvartr.de/studium/IVE/bci_Body_Centred_Interaction.pdf"
+        rel="nofollow"
+        >(PDF) Body Centred Interaction in Immersive Virtual Environments</a
+      >
+    </li>
+    <li>
+      <a
+        href="http://root.alsvartr.de/studium/IVE/magnetbrenda.pdf"
+        title="http://root.alsvartr.de/studium/IVE/magnetbrenda.pdf"
+        rel="nofollow"
+        >(PDF) The Illusion of Presence in Immersive Virtual Reality during an
+        fMRI Brain Scan</a
+      >
+    </li>
+    <li>
+      <a
+        href="http://root.alsvartr.de/studium/IVE/sfb_report108_Special_Relativity.pdf"
+        title="http://root.alsvartr.de/studium/IVE/sfb_report108_Special_Relativity.pdf"
+        rel="nofollow"
+        >(PDF) An Immersive Virtual Environment for Special Relativity</a
+      >
+    </li>
+    <li>
+      <a
+        href="http://root.alsvartr.de/studium/IVE/Virtual_Reality_Kirstin_Krueger.pdf"
+        title="http://root.alsvartr.de/studium/IVE/Virtual_Reality_Kirstin_Krueger.pdf"
+        rel="nofollow"
+        >(PDF) &quot;Virtual Reality&quot; von Kirstin Krüger</a
+      >
+    </li>
+    <li>
+      Viel Allgemeines, recht detailliert:
+      <a
+        href="http://www.it.fht-esslingen.de/%7Eschmidt/vorlesungen/vr/seminar/ws9899/virtuellerealitaet.html"
+        title="http://www.it.fht-esslingen.de/~schmidt/vorlesungen/vr/seminar/ws9899/virtuellerealitaet.html"
+        rel="nofollow"
+        >http://www.it.fht-esslingen.de/~schmidt/vorlesungen/vr/seminar/ws9899/virtuellerealitaet.html</a
+      >
+    </li>
+    <li>
+      VR Links, viele Produkte:
+      <a
+        href="http://ovrt.nist.gov/hotvr.html"
+        title="http://ovrt.nist.gov/hotvr.html"
+        rel="nofollow"
+        >http://ovrt.nist.gov/hotvr.html</a
+      >
+    </li>
+    <li>
+      Kurze Beschreibung immersiver Komponenten und Charakteristika eines
+      IVR-Systems:
+      <a
+        href="http://www-vrl.umich.edu/intro/index.html"
+        title="http://www-vrl.umich.edu/intro/index.html"
+        rel="nofollow"
+        >http://www-vrl.umich.edu/intro/index.html</a
+      >
+    </li>
+  </ul>
+</div>
