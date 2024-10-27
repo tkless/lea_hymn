@@ -57,7 +57,7 @@ export function main(app) {
             alt="icon"
             src="${entry.icon
               ? entry.icon
-              : "./../tree/resources/img/file-earmark.svg"}"
+              : "https://tkless.github.io/lea_hymn/tree/resources/img/file-earmark.svg"}"
           /><span>&nbsp;${entry.title}</span></span
         >
       </div>`;

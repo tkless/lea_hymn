@@ -7,7 +7,7 @@
 (() => {
   const component = {
     name: "tree",
-    ccm: "./../libs/ccm-27.5.0.min.js",
+    ccm: "https://tkless.github.io/lea_hymn/libs/ccm-27.5.0.min.js",
     config: {
       //data: [],
       //"active": "4",
@@ -16,28 +16,28 @@
       html: [
         "ccm.load",
         {
-          url: "./../tree/resources/tree_template.js",
+          url: "https://tkless.github.io/lea_hymn/tree/resources/tree_template.js",
           type: "module",
         },
       ],
       onchange: (event) => console.log(event),
       icon: {
-        close: "./../tree/resources/img/expand.svg",
-        open: "./../tree/resources/img/caret-right-fill.svg",
+        close: "https://tkless.github.io/lea_hymn/tree/resources/img/expand.svg",
+        open: "https://tkless.github.io/lea_hymn/tree/resources/img/caret-right-fill.svg",
       },
       expand_collapse_btn: true,
       helper: [
         "ccm.load",
         {
-          url: "./../libs/helper-8.4.2.min.js",
+          url: "https://tkless.github.io/lea_hymn/libs/helper-8.4.2.min.js",
           type: "module",
         },
       ],
       css: [
         "ccm.load",
-        "./../libs/bootstrap/css/bootstrap.min.css",
-        "./../libs/bootstrap/css/bootstrap-icons.min.css",
-        "./../tree/resources/style.css",
+        "https://tkless.github.io/lea_hymn/libs/bootstrap/css/bootstrap.min.css",
+        "https://tkless.github.io/lea_hymn/libs/bootstrap/css/bootstrap-icons.min.css",
+        "https://tkless.github.io/lea_hymn/tree/resources/style.css",
       ],
       dark: false,
       //noActive: true,

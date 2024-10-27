@@ -70,7 +70,7 @@ export function main(app) {
               alt="icon"
               src="${entry.icon
                 ? entry.icon
-                : "./../tree/resources/img/dot.svg"}"
+                : "https://tkless.github.io/lea_hymn/tree/resources/img/dot.svg"}"
             />
             <span>&nbsp;${entry.title}</span>
           </span>
