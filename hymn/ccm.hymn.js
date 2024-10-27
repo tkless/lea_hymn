@@ -1547,7 +1547,7 @@
           speechSynthesis.speak(msg);
           if (speechSynthesis.speaking) {
             this.element.querySelector("#speech img").src =
-              "../hymn/resources/img/audio-wave.gif";
+              "https://tkless.github.io/lea_hymn/hymn/resources/img/audio-wave.gif";
             this.element.querySelector("#speech img").style.width = "16px";
           }
 
@@ -1556,13 +1556,13 @@
             speechSynthesis.cancel();
             clickCounter = 0;
             this.element.querySelector("#speech img").src =
-              "../hymn/resources/img/soundwave.svg";
+              "https://tkless.github.io/lea_hymn/hymn/resources/img/soundwave.svg";
           }
           msg.onend = () => {
             speechSynthesis.cancel();
             clickCounter = 0;
             this.element.querySelector("#speech img").src =
-              "../hymn/resources/img/soundwave.svg";
+              "https://tkless.github.io/lea_hymn/hymn/resources/img/soundwave.svg";
           };
         },
 
@@ -1827,7 +1827,7 @@
                   inner: {
                     tag: "img",
                     style: "width: 100%;",
-                    src: "../hymn/resources/img/bookmark-fill.svg",
+                    src: "https://tkless.github.io/lea_hymn/hymn/resources/img/bookmark-fill.svg",
                     class: "road ms-auto me-1 text-default",
                   },
                 }),
