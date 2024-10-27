@@ -135,7 +135,7 @@ export function main(app) {
                 type="button"
                 @click=${() => app.events.speech()}
               >
-                <img alt="speech" src="libs/hymn/resources/img/soundwave.svg" />
+                <img alt="speech" src="https://tkless.github.io/lea_hymn/libs/hymn/resources/img/soundwave.svg" />
                 <span class="tool-tip-text-hover">Text vorlesen</span>
               </button>
 
