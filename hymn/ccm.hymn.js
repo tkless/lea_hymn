@@ -883,7 +883,7 @@
                             title: "Audio",
                             inner: [
                               "ccm.load",
-                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-5-audio.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-5-audio.html",
                             ],
                             id: "62c2e3f15c4e4d2d9d46c03e4398ff63",
                           },
@@ -902,7 +902,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-1.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-1.html",
                         ],
                         id: "de5a6872416e46ebb12e436cb8652096",
                       },
@@ -911,7 +911,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-2.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-2.html",
                         ],
                         id: "1417c8689da5481c909447e2de56da76",
                       },
@@ -927,7 +927,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-1.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-1.html",
                         ],
                         id: "b3b3a11f5b324f10821dedb3dff6e8ad",
                       },
@@ -936,7 +936,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-2.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-2.html",
                         ],
                         id: "b2e4eb721b634a63a7592441363f3bb0",
                       },
@@ -945,7 +945,7 @@
                         title: "Teil 3",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-3.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-3.html",
                         ],
                         id: "d9099f8f97ad4e14a2d072e385d4010a",
                       },
@@ -961,7 +961,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/fantasy-4-1.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/fantasy-4-1.html",
                         ],
                         id: "1a2c3ca5ec5d49d9a50938c6a5914360",
                       },
@@ -977,7 +977,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-1.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-1.html",
                         ],
                         id: "a704d97b8b28487b9d21e099fc8380cf",
                       },
@@ -986,7 +986,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-2.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-2.html",
                         ],
                         id: "c265ba8bacf54b5cbc334c7e9e570ad5",
                       },
@@ -995,7 +995,7 @@
                         title: "Teil 3",
                         inner: [
                           "ccm.load",
-                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-3.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-3.html",
                         ],
                         id: "65547b059b684d93a013b69e2e8c7dea",
                       },
@@ -1017,7 +1017,7 @@
                 title: "Wie werden Passwörter “geknackt”?",
                 inner: [
                   "ccm.load",
-                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passw-geknakt.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passw-geknakt.html",
                 ],
                 id: "23c486ef98a049bd93f793cef765fba2",
               },
@@ -1026,7 +1026,7 @@
                 title: "Modernes “guessing”",
                 inner: [
                   "ccm.load",
-                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing.html",
                 ],
                 id: "4d3c187b1b0a4ec19d87540fcdd26d5c",
               },
@@ -1035,7 +1035,7 @@
                 title: "Die eigentlichen Gefahren",
                 inner: [
                   "ccm.load",
-                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/gefahren.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/gefahren.html",
                 ],
                 id: "c51b06893e10495588c55112fb2a7cf6",
               },
@@ -1044,7 +1044,7 @@
                 title: "Was macht ein sicheres Passwort aus?",
                 inner: [
                   "ccm.load",
-                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/sicheres-password.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/sicheres-password.html",
                 ],
                 id: "4b3343503f6f467eae06f81a08623e00",
               },
@@ -1057,7 +1057,7 @@
                     title: "Für Passwörter",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passwoerter.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passwoerter.html",
                     ],
                     id: "c2aae37ff0734f91aa4204c850b433e3",
                   },
@@ -1066,7 +1066,7 @@
                     title: "Für Passphrasen",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passphrasen.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passphrasen.html",
                     ],
                     id: "7d5d9d429f9e461792d722e11fbca73f",
                   },
@@ -1082,7 +1082,7 @@
                     title: "Passwort-Manager",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/password-manager.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/password-manager.html",
                     ],
                     id: "2ea343a0d95c443aaafd2caa8bbf99ed",
                   },
@@ -1091,7 +1091,7 @@
                     title: "Digital",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/digital.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/digital.html",
                     ],
                     id: "0a71eabea8364118852504144a7d14b4",
                   },
@@ -1100,7 +1100,7 @@
                     title: "Papier",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/papier.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/papier.html",
                     ],
                     id: "a07298f4eda5459a9f3817d4925614d4",
                   },
@@ -1109,7 +1109,7 @@
                     title: "Quantencomputing",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/quantencomputing.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/quantencomputing.html",
                     ],
                     id: "388786b4c98040ae802b4dcb87e6771e",
                   },
@@ -1118,7 +1118,7 @@
                     title: "Guessing",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing-1.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing-1.html",
                     ],
                     id: "36e5b4bfd6704715b64a0fcf8db56856",
                   },
@@ -1127,7 +1127,7 @@
                     title: "Cracking",
                     inner: [
                       "ccm.load",
-                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/cracking.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/cracking.html",
                     ],
                     id: "e8f16e6b73684819afed3b25fa5e66ac",
                   },
@@ -1140,7 +1140,7 @@
           {
             container: "cm",
             title: "Quiz",
-            icon: "./../hymn_collection/resources/novels/img/pencil-square.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/img/pencil-square.svg",
             inner: [
               "ccm.instance",
               "https://ccmjs.github.io/akless-components/quiz/ccm.quiz.min.js",
@@ -1158,7 +1158,7 @@
           {
             container: "cm",
             title: "Lückentext",
-            icon: "./../hymn_collection/resources/novels/img/pencil-square.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources/novels/img/pencil-square.svg",
             inner: [
               "ccm.instance",
               "https://ccmjs.github.io/akless-components/cloze/ccm.cloze.min.js",
@@ -1188,35 +1188,35 @@
       /* editor: ["ccm.component", "libs/tiny_editor/ccm.tiny_editor.js"],*/
       tree_view: [
         "ccm.component",
-        "./../tree/ccm.tree.js",
+        "https://tkless.github.io/lea_hymn/tree/ccm.tree.js",
         {
           html: [
             "ccm.load",
             {
-              url: "./../tree/resources/tree_template.js",
+              url: "https://tkless.github.io/lea_hymn/tree/resources/tree_template.js",
               type: "module",
             },
           ],
           style: [
             "ccm.load",
-            "./../hymn/resources/css/tree.css",
+            "https://tkless.github.io/lea_hymn/hymn/resources/css/tree.css",
           ],
         },
       ],
       container_view: [
         "ccm.component",
-        "./../tree/ccm.tree.js",
+        "https://tkless.github.io/lea_hymn/tree/ccm.tree.js",
         {
           html: [
             "ccm.load",
             {
-              url: "./../hymn/resources/container_view.js",
+              url: "https://tkless.github.io/lea_hymn/hymn/resources/container_view.js",
               type: "module",
             },
           ],
           style: [
             "ccm.load",
-            "./../hymn/resources/css/tree.css",
+            "https://tkless.github.io/lea_hymn/hymn/resources/css/tree.css",
           ],
         },
       ],
@@ -1227,19 +1227,19 @@
       helper: [
         "ccm.load",
         {
-          url: "./../libs/helper-8.4.2.min.js",
+          url: "https://tkless.github.io/lea_hymn/libs/helper-8.4.2.min.js",
           type: "module",
         },
       ],
       css: [
         "ccm.load",
-        "./../libs/bootstrap/css/bootstrap.min.css",
-        "./../libs/bootstrap/css/bootstrap-icons.min.css",
+        "https://tkless.github.io/lea_hymn/libs/bootstrap/css/bootstrap.min.css",
+        "https://tkless.github.io/lea_hymn/libs/bootstrap/css/bootstrap-icons.min.css",
         {
-          url: "./../libs/bootstrap/css/bootstrap-icons.min.css",
+          url: "https://tkless.github.io/lea_hymn/libs/bootstrap/css/bootstrap-icons.min.css",
           context: "head",
         },
-        "./../hymn/resources/css/hymn.css",
+        "https://tkless.github.io/lea_hymn/hymn/resources/css/hymn.css",
       ],
       /* lang: [
         "ccm.start",

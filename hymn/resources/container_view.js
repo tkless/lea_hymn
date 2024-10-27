@@ -40,7 +40,7 @@ export function main(app) {
             alt="icon"
             src="${entry.icon
               ? setSVG(entry.icon)
-              : "./../tree/resources/img/file-earmark.svg"}"
+              : "https://tkless.github.io/lea_hymn/tree/resources/img/file-earmark.svg"}"
           />
           <span>&nbsp;${entry.title}&nbsp;</span>
         </span>

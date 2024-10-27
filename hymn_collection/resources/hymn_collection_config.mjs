@@ -82,7 +82,7 @@ export const novels = {
     "ccm.component",
     "../hymn/ccm.hymn.js",
     {
-      routing: ["ccm.instance", "./../libs/ccm.routing-4.0.0.js"],
+      routing: ["ccm.instance", "https://tkless.github.io/lea_hymn/libs/ccm.routing-4.0.0.js"],
       user: [
         "ccm.instance",
         "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.8.0.js",
@@ -178,11 +178,11 @@ export const novels = {
       lang: [
         "ccm.start",
         "https://ccmjs.github.io/akless-components/lang/versions/ccm.lang-1.2.1.js",
-        ["ccm.load", "./../hymn/resources/hymn_config.mjs#lang_config"],
+        ["ccm.load", "https://tkless.github.io/lea_hymn/hymn/resources/hymn_config.mjs#lang_config"],
       ],
     },
   ],
-  routing: ["ccm.instance", "./../libs/ccm.routing-4.0.0.js"],
+  routing: ["ccm.instance", "https://tkless.github.io/lea_hymn/libs/ccm.routing-4.0.0.js"],
 };
 
 export const lang_config = {

@@ -8,7 +8,7 @@
     name: "hymn_editor",
     ccm: "https://ccmjs.github.io/ccm/versions/ccm-27.4.2.min.js",
     config: {
-      html: ["ccm.load", "./../hymn_editor/resources/templates.mjs"],
+      html: ["ccm.load", "https://tkless.github.io/lea_hymn/hymn_editor/resources/templates.mjs"],
       data: {
         store: [
           "ccm.store",
@@ -19,7 +19,7 @@
         ],
         key: "0cf608bc0f6547d6a07214d4c4d502dc",
       },
-      hymn: ["ccm.component", "./../hymn/ccm.hymn.js"],
+      hymn: ["ccm.component", "https://tkless.github.io/lea_hymn/hymn/ccm.hymn.js"],
       json_editor: [
         "ccm.component",
         "https://ccmjs.github.io/code_editor/versions/v1/ccm.code_editor-1.0.0.min.js",
@@ -36,7 +36,7 @@
       ],
       content_editor: [
         "ccm.component",
-        "./../tiny_editor/ccm.tiny_editor.js",
+        "https://tkless.github.io/lea_hymn/tiny_editor/ccm.tiny_editor.js",
         {
           html: {
             id: "main",
@@ -122,7 +122,7 @@
           url: "../libs/bootstrap/css/bootstrap-icons.min.css",
           context: "head",
         },
-        "./../hymn/resources/css/hymn.css",
+        "https://tkless.github.io/lea_hymn/hymn/resources/css/hymn.css",
       ],
       dark: false,
       shadow: "open",

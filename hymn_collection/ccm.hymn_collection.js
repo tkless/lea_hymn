@@ -30,7 +30,7 @@
         "https://ccmjs.github.io/akless-components/lang/versions/ccm.lang-1.2.1.js",
         ["ccm.load", "./resources/hymn_collection_config.mjs#lang_config"],
       ],
-      //routing: ["ccm.instance", "./../libs/ccm.routing-4.0.0.js"],
+      //routing: ["ccm.instance", "https://tkless.github.io/lea_hymn/libs/ccm.routing-4.0.0.js"],
       dark: false,
       shadow: "none",
       active_nav_item: "1",
