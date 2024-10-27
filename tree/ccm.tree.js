@@ -7,7 +7,7 @@
 (() => {
   const component = {
     name: "tree",
-    ccm: "https://kaul.inf.h-brs.de/hymn/hymn/libs/ccm-27.5.0.min.js",
+    ccm: "./../libs/ccm-27.5.0.min.js",
     config: {
       //data: [],
       //"active": "4",
@@ -16,28 +16,28 @@
       html: [
         "ccm.load",
         {
-          url: "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/tree/resources/tree_template.js",
+          url: "./../tree/resources/tree_template.js",
           type: "module",
         },
       ],
       onchange: (event) => console.log(event),
       icon: {
-        close: "https://kaul.inf.h-brs.de/hymn/hymn/tree/resources/img/expand.svg",
-        open: "https://kaul.inf.h-brs.de/hymn/hymn/tree/resources/img/caret-right-fill.svg",
+        close: "./../tree/resources/img/expand.svg",
+        open: "./../tree/resources/img/caret-right-fill.svg",
       },
       expand_collapse_btn: true,
       helper: [
         "ccm.load",
         {
-          url: "https://kaul.inf.h-brs.de/hymn/hymn/libs/helper-8.4.2.min.js",
+          url: "./../libs/helper-8.4.2.min.js",
           type: "module",
         },
       ],
       css: [
         "ccm.load",
-        "https://kaul.inf.h-brs.de/hymn/hymn/libs/bootstrap/css/bootstrap.min.css",
-        "https://kaul.inf.h-brs.de/hymn/hymn/libs/bootstrap/css/bootstrap-icons.min.css",
-        "https://kaul.inf.h-brs.de/hymn/hymn/tree/resources/style.css",
+        "./../libs/bootstrap/css/bootstrap.min.css",
+        "./../libs/bootstrap/css/bootstrap-icons.min.css",
+        "./../tree/resources/style.css",
       ],
       dark: false,
       //noActive: true,

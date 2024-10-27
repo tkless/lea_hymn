@@ -6,12 +6,12 @@
 (() => {
   const component = {
     name: "hymn",
-    ccm: "https://kaul.inf.h-brs.de/hymn/hymn/libs/ccm-27.5.0.min.js",
+    ccm: "./../libs/ccm-27.5.0.min.js",
     config: {
       html: [
         "ccm.load",
         {
-          url: "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/hymn/resources/hymn_templates.js",
+          url: "./../hymn/resources/hymn_templates.js",
           type: "module",
         },
       ],
@@ -98,7 +98,7 @@
         container: "sc",
         title: "Passwortsicherheit",
         cover_img:
-          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/cover.png",
+          "./../hymn_collection/resources/novels/passwortsicherheit/cover.png",
         description: "Sichere Passwörter erstellen und verwalten können.",
         inner: [
           {
@@ -111,7 +111,7 @@
                 title: "Titel",
                 inner: [
                   "ccm.load",
-                  "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/einfuerung/titel.html",
+                  "./../hymn_collection/resources/novels/passwortsicherheit/einfuerung/titel.html",
                 ],
                 id: "f382bc819f6048919f54f6d4809afefe",
               },
@@ -120,7 +120,7 @@
                 title: "Über Story",
                 inner: [
                   "ccm.load",
-                  "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/einfuerung/ueber.html",
+                  "./../hymn_collection/resources/novels/passwortsicherheit/einfuerung/ueber.html",
                 ],
                 id: "edad922f3547436196275328a73f0817",
               },
@@ -145,7 +145,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/generisch-1-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/generisch-1-1.html",
                         ],
                         id: "dc9876bfcb9740e48384e77d0da8ee4c",
                       },
@@ -161,7 +161,7 @@
                         title: "Titelseite",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-0-0.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-0-0.html",
                         ],
                         id: "0df85977428b45e0a969cba1eebdc08a",
                       },
@@ -173,10 +173,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-1.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-1.html",
                             ],
                             id: "89a13a7e1bed42a3aeac2779b40d0bd2",
                           },
@@ -184,10 +184,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-1-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-1-audio.html",
                             ],
                             id: "89a13a7e1bed42a3aeac2779b2h89bd2",
                           },
@@ -202,10 +202,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-2.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-2.html",
                             ],
                             id: "da2933b5ba99459bad250d984564fb1e",
                           },
@@ -213,10 +213,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-2-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap1/krimi-1-2-audio.html",
                             ],
                             id: "6abb2122fb454f1a9527d35201b1a22e",
                           },
@@ -235,7 +235,7 @@
                         title: "Titelseite",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/scifi-0-0.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/scifi-0-0.html",
                         ],
                         id: "0df85977428b45e0a969cba1eebdc98a",
                       },
@@ -244,7 +244,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/scifi-1-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/scifi-1-1.html",
                         ],
                         id: "cb1d2cb743bb41b69e46c50f0fa7bb56",
                       },
@@ -253,7 +253,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/scifi-1-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/scifi-1-2.html",
                         ],
                         id: "240677228833411d8f8121a8cfb719e9",
                       },
@@ -269,7 +269,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/mystery-1-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/mystery-1-1.html",
                         ],
                         id: "1e09df162698461a8a957bf3c97b12b7",
                       },
@@ -278,7 +278,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/mystery-1-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/mystery-1-2.html",
                         ],
                         id: "a0c61991ade34d9b90655b286dfb168c",
                       },
@@ -294,7 +294,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/fantasy-1-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/fantasy-1-1.html",
                         ],
                         id: "83d6388185c34766aa9e21bdaf0d9af1",
                       },
@@ -310,7 +310,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap1/comedy-1-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap1/comedy-1-1.html",
                         ],
                         id: "628f96eb3ffa49bcbf353279ddad2181",
                       },
@@ -341,7 +341,7 @@
                         default: true,
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/generisch-2-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/generisch-2-1.html",
                         ],
                         id: "0e0d5c51a6db40a691619a3939e52c28",
                       },
@@ -351,7 +351,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/generisch-2-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/generisch-2-2.html",
                         ],
                         id: "2a27a1992b6c4b909e3e6d4a9b020b30",
                       },
@@ -370,10 +370,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-1.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-1.html",
                             ],
                             id: "e5dd31de126f41ff8a88b954f093855e",
                           },
@@ -381,10 +381,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-2-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-2-audio.html",
                             ],
                             id: "ce2deac9d1774c848767c172cc789152",
                           },
@@ -399,10 +399,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-2.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-2.html",
                             ],
                             id: "a2e3e12f9c7b4bc9be322073cbdaa878",
                           },
@@ -410,10 +410,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-2-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-2-audio.html",
                             ],
                             id: "6aa4d51830e2447fb7aad80584d5d772",
                           },
@@ -428,10 +428,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-3.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-3.html",
                             ],
                             id: "a2e3e12f9c7b4bc9be322073cbdaa989",
                           },
@@ -439,10 +439,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-3-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap2/krimi-2-3-audio.html",
                             ],
                             id: "c016332b5fc54dea8646ba512c2416ff",
                           },
@@ -461,7 +461,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/scifi-2-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/scifi-2-1.html",
                         ],
                         id: "b65f2dcbb5a54d4dac5ff52d85b30703",
                       },
@@ -477,7 +477,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "hhttps://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/mystery-2-1.html",
+                          "h./../hymn_collection/resources/novels/passwortsicherheit/kap2/mystery-2-1.html",
                         ],
                         id: "90f34629f5574f9f96d83061109c2e65",
                       },
@@ -486,7 +486,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/mystery-2-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/mystery-2-2.html",
                         ],
                         id: "a54d515cad2347ffb19d93e618c46f15",
                       },
@@ -502,7 +502,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/fantasy-2-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/fantasy-2-1.html",
                         ],
                         id: "4330c16eed044cb0a5334006f033b471",
                       },
@@ -518,7 +518,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/comedy-2-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/comedy-2-1.html",
                         ],
                         id: "74c3a2aa5d5b4ffe9be63d93cf4f202c",
                       },
@@ -527,7 +527,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "hhttps://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap2/comedy-2-2.html",
+                          "h./../hymn_collection/resources/novels/passwortsicherheit/kap2/comedy-2-2.html",
                         ],
                         id: "783939c0134b478aa7e405ed4eb12f8a",
                       },
@@ -558,7 +558,7 @@
                         default: true,
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/generisch-3-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/generisch-3-1.html",
                         ],
                         id: "b3b1cce134244e509249dd66eae00ff3",
                       },
@@ -577,10 +577,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-1.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-1.html",
                             ],
                             id: "9f67013f9e754953b02ef7673c2f6258",
                           },
@@ -588,10 +588,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "hhttps://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-1-audio.html",
+                              "h./../hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-1-audio.html",
                             ],
                             id: "657a0c5a3f894978b4a104850d10852e",
                           },
@@ -606,10 +606,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-2.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-2.html",
                             ],
                             id: "54e6d97de8cb470da3b6686737b20833",
                           },
@@ -617,10 +617,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-2-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-2-audio.html",
                             ],
                             id: "527d484b1b1a4094adb1cd8b96926f60",
                           },
@@ -639,7 +639,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/scifi-3-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/scifi-3-1.html",
                         ],
                         id: "3cc6446b786249389471d0d1f171870e",
                       },
@@ -648,7 +648,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/scifi-3-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/scifi-3-2.html",
                         ],
                         id: "f3fd855a8fb541598ee59110018dbb4c",
                       },
@@ -664,7 +664,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/mystery-3-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/mystery-3-1.html",
                         ],
                         id: "71107097ea134133acaa4413684baaeb",
                       },
@@ -673,7 +673,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/mystery-3-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/mystery-3-2.html",
                         ],
                         id: "dce66c4dbd134c388cf7bd5a0a6a4456",
                       },
@@ -689,7 +689,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/fantasy-3-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/fantasy-3-1.html",
                         ],
                         id: "9f8ad74931504537aa164c48a72715da",
                       },
@@ -705,7 +705,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap3/comedy-3-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap3/comedy-3-1.html",
                         ],
                         id: "15eeb4d8b3f347a0ba7ae9a199838774",
                       },
@@ -736,7 +736,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/generisch-4-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/generisch-4-1.html",
                         ],
                         id: "f5b225c7fbb146d6a18a2327e2ac29d1",
                       },
@@ -755,10 +755,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-1.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-1.html",
                             ],
                             id: "09246ff990f7453d95f684e739f349be",
                           },
@@ -766,10 +766,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-1-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-1-audio.html",
                             ],
                             id: "4b86894f210a4f819a656ac88967619b",
                           },
@@ -784,10 +784,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-2.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-2.html",
                             ],
                             id: "68c66ba5787b4319b8ed6e45f28d1996",
                           },
@@ -795,10 +795,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-2-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-2-audio.html",
                             ],
                             id: "fe80ac08c1824bb89a0eb83e858f39f3",
                           },
@@ -813,10 +813,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-3.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-3.html",
                             ],
                             id: "bf5163f9087f4c6bb5a41b3ac5dde06e",
                           },
@@ -824,10 +824,10 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-3-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-3-audio.html",
                             ],
                             id: "4b88b2d4d5d0402f8b21169126ffaba6",
                           },
@@ -842,10 +842,10 @@
                             filter: ["Text"],
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-4.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-4.html",
                             ],
                             id: "bf5163f9087f4c6bb5a41b3ac5dde17h",
                           },
@@ -853,7 +853,7 @@
                             filter: ["Audio"],
                             container: "cm",
                             title: "Audio",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
                               "https://hymn.inf.h-brs.de/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-4-audio.html",
@@ -870,20 +870,20 @@
                           {
                             container: "cm",
                             title: "Text",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-text.svg",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-5.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-5.html",
                             ],
                             id: "bf5163f9087f4c6bb5a41b3ac5ddg17ej",
                           },
                           {
                             container: "cm",
-                            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
+                            icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             title: "Audio",
                             inner: [
                               "ccm.load",
-                              "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-5-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-5-audio.html",
                             ],
                             id: "62c2e3f15c4e4d2d9d46c03e4398ff63",
                           },
@@ -902,7 +902,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-1.html",
                         ],
                         id: "de5a6872416e46ebb12e436cb8652096",
                       },
@@ -911,7 +911,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/scifi-4-2.html",
                         ],
                         id: "1417c8689da5481c909447e2de56da76",
                       },
@@ -927,7 +927,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-1.html",
                         ],
                         id: "b3b3a11f5b324f10821dedb3dff6e8ad",
                       },
@@ -936,7 +936,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-2.html",
                         ],
                         id: "b2e4eb721b634a63a7592441363f3bb0",
                       },
@@ -945,7 +945,7 @@
                         title: "Teil 3",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-3.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/mystery-4-3.html",
                         ],
                         id: "d9099f8f97ad4e14a2d072e385d4010a",
                       },
@@ -961,7 +961,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/fantasy-4-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/fantasy-4-1.html",
                         ],
                         id: "1a2c3ca5ec5d49d9a50938c6a5914360",
                       },
@@ -977,7 +977,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-1.html",
                         ],
                         id: "a704d97b8b28487b9d21e099fc8380cf",
                       },
@@ -986,7 +986,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-2.html",
                         ],
                         id: "c265ba8bacf54b5cbc334c7e9e570ad5",
                       },
@@ -995,7 +995,7 @@
                         title: "Teil 3",
                         inner: [
                           "ccm.load",
-                          "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-3.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap4/comedy-4-3.html",
                         ],
                         id: "65547b059b684d93a013b69e2e8c7dea",
                       },
@@ -1017,7 +1017,7 @@
                 title: "Wie werden Passwörter “geknackt”?",
                 inner: [
                   "ccm.load",
-                  "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passw-geknakt.html",
+                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passw-geknakt.html",
                 ],
                 id: "23c486ef98a049bd93f793cef765fba2",
               },
@@ -1026,7 +1026,7 @@
                 title: "Modernes “guessing”",
                 inner: [
                   "ccm.load",
-                  "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing.html",
+                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing.html",
                 ],
                 id: "4d3c187b1b0a4ec19d87540fcdd26d5c",
               },
@@ -1035,7 +1035,7 @@
                 title: "Die eigentlichen Gefahren",
                 inner: [
                   "ccm.load",
-                  "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/gefahren.html",
+                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/gefahren.html",
                 ],
                 id: "c51b06893e10495588c55112fb2a7cf6",
               },
@@ -1044,7 +1044,7 @@
                 title: "Was macht ein sicheres Passwort aus?",
                 inner: [
                   "ccm.load",
-                  "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/sicheres-password.html",
+                  "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/sicheres-password.html",
                 ],
                 id: "4b3343503f6f467eae06f81a08623e00",
               },
@@ -1057,7 +1057,7 @@
                     title: "Für Passwörter",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passwoerter.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passwoerter.html",
                     ],
                     id: "c2aae37ff0734f91aa4204c850b433e3",
                   },
@@ -1066,7 +1066,7 @@
                     title: "Für Passphrasen",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passphrasen.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/passphrasen.html",
                     ],
                     id: "7d5d9d429f9e461792d722e11fbca73f",
                   },
@@ -1082,7 +1082,7 @@
                     title: "Passwort-Manager",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/password-manager.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/password-manager.html",
                     ],
                     id: "2ea343a0d95c443aaafd2caa8bbf99ed",
                   },
@@ -1091,7 +1091,7 @@
                     title: "Digital",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/digital.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/digital.html",
                     ],
                     id: "0a71eabea8364118852504144a7d14b4",
                   },
@@ -1100,7 +1100,7 @@
                     title: "Papier",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/papier.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/papier.html",
                     ],
                     id: "a07298f4eda5459a9f3817d4925614d4",
                   },
@@ -1109,7 +1109,7 @@
                     title: "Quantencomputing",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/quantencomputing.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/quantencomputing.html",
                     ],
                     id: "388786b4c98040ae802b4dcb87e6771e",
                   },
@@ -1118,7 +1118,7 @@
                     title: "Guessing",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing-1.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/guessing-1.html",
                     ],
                     id: "36e5b4bfd6704715b64a0fcf8db56856",
                   },
@@ -1127,7 +1127,7 @@
                     title: "Cracking",
                     inner: [
                       "ccm.load",
-                      "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/cracking.html",
+                      "./../hymn_collection/resources/novels/passwortsicherheit/hintergrund_info/cracking.html",
                     ],
                     id: "e8f16e6b73684819afed3b25fa5e66ac",
                   },
@@ -1140,7 +1140,7 @@
           {
             container: "cm",
             title: "Quiz",
-            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/img/pencil-square.svg",
+            icon: "./../hymn_collection/resources/novels/img/pencil-square.svg",
             inner: [
               "ccm.instance",
               "https://ccmjs.github.io/akless-components/quiz/ccm.quiz.min.js",
@@ -1158,7 +1158,7 @@
           {
             container: "cm",
             title: "Lückentext",
-            icon: "https://kaul.inf.h-brs.de/hymn/hymn/hymn_collection/resources/novels/img/pencil-square.svg",
+            icon: "./../hymn_collection/resources/novels/img/pencil-square.svg",
             inner: [
               "ccm.instance",
               "https://ccmjs.github.io/akless-components/cloze/ccm.cloze.min.js",
@@ -1188,35 +1188,35 @@
       /* editor: ["ccm.component", "libs/tiny_editor/ccm.tiny_editor.js"],*/
       tree_view: [
         "ccm.component",
-        "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/tree/ccm.tree.js",
+        "./../tree/ccm.tree.js",
         {
           html: [
             "ccm.load",
             {
-              url: "hhttps://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/tree/resources/tree_template.js",
+              url: "./../tree/resources/tree_template.js",
               type: "module",
             },
           ],
           style: [
             "ccm.load",
-            "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/hymn/resources/css/tree.css",
+            "./../hymn/resources/css/tree.css",
           ],
         },
       ],
       container_view: [
         "ccm.component",
-        "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/tree/ccm.tree.js",
+        "./../tree/ccm.tree.js",
         {
           html: [
             "ccm.load",
             {
-              url: "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/hymn/resources/container_view.js",
+              url: "./../hymn/resources/container_view.js",
               type: "module",
             },
           ],
           style: [
             "ccm.load",
-            "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/hymn/resources/css/tree.css",
+            "./../hymn/resources/css/tree.css",
           ],
         },
       ],
@@ -1227,19 +1227,19 @@
       helper: [
         "ccm.load",
         {
-          url: "https://kaul.inf.h-brs.de/hymn/hymn/libs/helper-8.4.2.min.js",
+          url: "./../libs/helper-8.4.2.min.js",
           type: "module",
         },
       ],
       css: [
         "ccm.load",
-        "https://kaul.inf.h-brs.de/hymn/hymn/libs/bootstrap/css/bootstrap.min.css",
-        "https://kaul.inf.h-brs.de/hymn/hymn/libs/bootstrap/css/bootstrap-icons.min.css",
+        "./../libs/bootstrap/css/bootstrap.min.css",
+        "./../libs/bootstrap/css/bootstrap-icons.min.css",
         {
-          url: "https://kaul.inf.h-brs.de/hymn/hymn/libs/bootstrap/css/bootstrap-icons.min.css",
+          url: "./../libs/bootstrap/css/bootstrap-icons.min.css",
           context: "head",
         },
-        "https://kaul.inf.h-brs.de/hymn/hymn/lea_hymn/hymn/resources/css/hymn.css",
+        "./../hymn/resources/css/hymn.css",
       ],
       /* lang: [
         "ccm.start",
