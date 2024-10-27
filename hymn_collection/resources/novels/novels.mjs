@@ -21,7 +21,7 @@ export const was_ist_html = {
           {
             filter: ["Text"],
             container: "cm",
-            icon: "resources/novels/img/file-earmark-font.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
             title: "Text",
             inner:
               '<h3 class="border-bottom mb-5 text-primary">Motivation, Lernziele und Voraussetzungen</h3><p><!-- Motivation -->' +
@@ -32,7 +32,7 @@ export const was_ist_html = {
             container: "cm",
             title: "Audio",
             filter: ["Audio", "Leicht"],
-            icon: "resources/novels/img/file-earmark-music.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-music.svg",
             inner:
               '<h3 class="border-bottom mb-5">Motivation, Lernziele und Voraussetzungen</h3><audio controls>  <source src="https://akless.github.io/akless/we/was-ist-html/motivation.mp3" type="audio/mp3">  Your browser does not support the audio element.</audio>',
             id: "1e5dd6cd7d314f61ae262c689ee2ddb6",
@@ -42,7 +42,7 @@ export const was_ist_html = {
             container: "cm",
             title: "Video",
             filter: ["Video", "Mittel"],
-            icon: "resources/novels/img/file-earmark-music.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-music.svg",
             inner:
               '<h3 class="border-bottom mb-5">Motivation, Lernziele und Voraussetzungen</h3><audio controls>  <source src="https://akless.github.io/akless/we/was-ist-html/motivation.mp3" type="audio/mp3">  Your browser does not support the audio element.</audio>',
             id: "75c1c183ab764ffaaea9e34c47cf7c86",
@@ -53,7 +53,7 @@ export const was_ist_html = {
       {
         container: "cm",
         title: "Lernziele",
-        icon: "resources/novels/img/file-earmark-font.svg",
+        icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
         inner:
           '<h3 class="border-bottom mb-5 text-primary">Lernziele</h3><ul><li>Ich weiß, was HTML ist, wofür es steht und wofür es eingesetzt wird.<li>Ich weiß, was ein Hyperlink ist und wofür man ihn einsetzt.<li>Ich weiß, wer HTML zu welchem ursprünglichen Zweck erfunden hat.<li>Ich weiß, wer an der Weiterentwicklung von HTML arbeitet.<li>Ich weiß, in welcher Version HTML aktuell vorliegt.</ul>',
         id: "8d9d4f24641c4a09ac5bdb46b29ece26",
@@ -66,7 +66,7 @@ export const was_ist_html = {
             container: "cm",
             filter: ["Text"],
             title: "Text",
-            icon: "resources/novels/img/file-earmark-font.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
             inner:
               '<h3 class="border-bottom mb-5 text-primary">Voraussetzungen</h3>\n          <ul>\n            <li>Ich weiß grob, was das Internet, das Web, ein Webbrowser und eine Webseite ist.\n            <li>Ich habe bereits Erfahrung mit dem Besuchen von Webseiten im Web.\n          </ul>\n          <p>Falls Sie bisher nur wenige Erfahrungen mit dem Web haben, hier das wichtigste:</p>\n        ',
             id: "f2deb1015c0f4083aec4bec5ac0759da",
@@ -83,7 +83,7 @@ export const was_ist_html = {
             container: "cm",
             filter: ["Text"],
             title: "Text",
-            icon: "resources/novels/img/file-earmark-font.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
             inner: `<h3 class="border-bottom mb-5 text-primary">Internet, Web, Webbrowser und Webseiten</h3><p>Das Internet ist das größte Netzwerk der Welt, das internetfähige Geräte miteinander vernetzt. Dadurch sind die\n          Geräte in der Lage, Informationen bzw. Daten auszutauschen. Wir Menschen nutzen das Internet meistens über einen\n          Webbrowser. Ein Webbrowser ist ein Computerprogramm, über das wir im Web veröffentlichte Webseiten aufrufen können.\n          Wenn man also selbst eine Webseite veröffentlicht, können die darauf präsentierten Inhalte von jedem Menschen in\n          der Welt, der über ein internetfähiges Gerät verfügt, mit Hilfe eines Webbrowsers über das Web abgerufen werden.</p>`,
             id: "d6904637ab194f3ab34d1d5cb87940f3",
           },
@@ -91,7 +91,7 @@ export const was_ist_html = {
             container: "cm",
             filter: ["Audio"],
             title: "Audio",
-            icon: "resources/novels/img/file-earmark-music.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-music.svg",
             inner:
               '\n          <h3 class="border-bottom mb-5 text-primary">Audio</h3>\n          <audio controls>\n            <source src="https://akless.github.io/akless/we/was-ist-html/grundlage.mp3" type="audio/mp3">\n            Your browser does not support the audio element.\n          </audio>',
             id: "2ed382df2b924e869374c0e47d2782d9",
@@ -107,7 +107,7 @@ export const was_ist_html = {
             container: "cm",
             filter: ["Video"],
             title: "Video",
-            icon: "resources/novels/img/file-earmark-play.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-play.svg",
             inner:
               '\n          <h3 class="border-bottom mb-5 text-primary">Was ist HTML?</h3>\n            <video width="500px" controls class="rounded mx-auto d-block border">\n              <source src="https://akless.github.io/akless/we/was-ist-html/slidecast.mp4" type="video/mp4">\n            Your browser does not support the video tag.\n            </video>\n          ',
             id: "9ccfd8a053114a1fab141f24608eb140",
@@ -123,8 +123,8 @@ export const was_ist_html = {
             container: "cm",
             filter: ["Text"],
             title: "Text",
-            icon: "resources/novels/img/file-earmark-font.svg",
-            inner: ["ccm.load", "resources/novels/was_ist_html/html.html"],
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
+            inner: ["ccm.load", "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/was_ist_html/html.html"],
             id: "7b2de37bc08e4f64a5c54d3505a2d670",
           },
         ],
@@ -138,10 +138,10 @@ export const was_ist_html = {
             container: "cm",
             filter: ["Text"],
             title: "Text",
-            icon: "resources/novels/img/file-earmark-font.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
             inner: [
               "ccm.load",
-              "resources/novels/was_ist_html/einsatzgebiet.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/was_ist_html/einsatzgebiet.html",
             ],
             id: "df6ce54a50bd47a091343d636e1ef207",
           },
@@ -155,8 +155,8 @@ export const was_ist_html = {
           {
             container: "cm",
             title: "Text",
-            icon: "resources/novels/img/file-earmark-font.svg",
-            inner: ["ccm.load", "resources/novels/was_ist_html/w3c.html"],
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
+            inner: ["ccm.load", "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/was_ist_html/w3c.html"],
             id: "c1b4319954a146ee8cfcc4af93f63f44",
           },
         ],
@@ -169,10 +169,10 @@ export const was_ist_html = {
           {
             container: "cm",
             title: "Text",
-            icon: "resources/novels/img/file-earmark-font.svg",
+            icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
             inner: [
               "ccm.load",
-              "resources/novels/was_ist_html/weiterentwicklung.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/was_ist_html/weiterentwicklung.html",
             ],
             id: "d652cf35cd5e43298fe70e576e09baf3",
           },
@@ -183,7 +183,7 @@ export const was_ist_html = {
         container: "cm",
         filter: ["Text"],
         title: "Quiz",
-        icon: "resources/novels/img/pencil-square.svg",
+        icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/pencil-square.svg",
         inner: [
           "ccm.instance",
           "https://ccmjs.github.io/akless-components/quiz/versions/ccm.quiz-4.3.0.js",
@@ -202,8 +202,8 @@ export const was_ist_html = {
         container: "cm",
         filter: ["Text"],
         title: "Weiteführende Materielien",
-        icon: "resources/novels/img/file-earmark-font.svg",
-        inner: ["ccm.load", "resources/novels/was_ist_html/materialien.html"],
+        icon: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/img/file-earmark-font.svg",
+        inner: ["ccm.load", "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/was_ist_html/materialien.html"],
         id: "196459004c834a43a5164648b292aff8",
       },
     ],
@@ -234,7 +234,7 @@ export const schmetterlingstraum = {
   data: {
     container: "sc",
     title: "Schmetterlingsträume",
-    cover_img: "resources/novels/schmetterlingstraum/cover.jpg",
+    cover_img: "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/cover.jpg",
     description:
       "Geschichte über eine bemannte Mission zum Nachbarplaneten Mars.?",
     inner: [
@@ -248,7 +248,7 @@ export const schmetterlingstraum = {
             title: "Titel",
             inner: [
               "ccm.load",
-              "resources/novels/schmetterlingstraum/einfuerung/titel.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/einfuerung/titel.html",
             ],
             id: "f4da1fbc9ee44c84b870f3900ee00c8c",
           },
@@ -257,7 +257,7 @@ export const schmetterlingstraum = {
             title: "Hilfe",
             inner: [
               "ccm.load",
-              "resources/novels/schmetterlingstraum/einfuerung/hilfe.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/einfuerung/hilfe.html",
             ],
             id: "33feea64faa44e3ba9d690f390a99641",
           },
@@ -270,7 +270,7 @@ export const schmetterlingstraum = {
                 title: "Story",
                 inner: [
                   "ccm.load",
-                  "resources/novels/schmetterlingstraum/kapitel-1/uebersicht.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/uebersicht.html",
                 ],
                 id: "9ac4f71cdb6543a4aa7164c44e0fa03f",
               },
@@ -279,7 +279,7 @@ export const schmetterlingstraum = {
                 title: "Charakterisierung",
                 inner: [
                   "ccm.load",
-                  "resources/novels/schmetterlingstraum/kapitel-1/charakterisierung.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/charakterisierung.html",
                 ],
                 id: "6520d7b3111f40a197f56760ae15a57c",
               },
@@ -291,7 +291,7 @@ export const schmetterlingstraum = {
             title: "Info",
             inner: [
               "ccm.load",
-              "resources/novels/schmetterlingstraum/einfuerung/info.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/einfuerung/info.html",
             ],
             id: "41d33ea569504b029eb603bc78182837",
           },
@@ -304,7 +304,7 @@ export const schmetterlingstraum = {
                 title: "Autoren",
                 inner: [
                   "ccm.load",
-                  "resources/novels/schmetterlingstraum/einfuerung/autoren.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/einfuerung/autoren.html",
                 ],
                 id: "1488f6d082254bdbb3832bdf65dc3391",
               },
@@ -314,7 +314,7 @@ export const schmetterlingstraum = {
                 title: "Impressum",
                 inner: [
                   "ccm.load",
-                  "resources/novels/schmetterlingstraum/einfuerung/impressum.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/einfuerung/impressum.html",
                 ],
                 id: "46d52b3e8fbf4001b11c8caff75a5b59",
               },
@@ -333,7 +333,7 @@ export const schmetterlingstraum = {
             title: "Übersicht",
             inner: [
               "ccm.load",
-              "resources/novels/schmetterlingstraum/kapitel-1/uebersicht.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/uebersicht.html",
             ],
             id: "49043bd9d1bd4c569a4e0f8873e9eda1",
           },
@@ -342,7 +342,7 @@ export const schmetterlingstraum = {
             title: "Charakterisierung",
             inner: [
               "ccm.load",
-              "resources/novels/schmetterlingstraum/kapitel-1/charakterisierung.html",
+              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/charakterisierung.html",
             ],
             id: "05110255b88a458d94f063b02eb23247",
           },
@@ -355,7 +355,7 @@ export const schmetterlingstraum = {
                 title: "Menschtraum",
                 inner: [
                   "ccm.load",
-                  "resources/novels/schmetterlingstraum/kapitel-1/menschtraum.html",
+                  "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/menschtraum.html",
                 ],
                 id: "c2ae84314ba8449b95a9f51878dbe028",
               },
@@ -368,7 +368,7 @@ export const schmetterlingstraum = {
                     title: "Marslandung",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-1/marslandung.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/marslandung.html",
                     ],
                     id: "0cef059d21564cc18f11f90529b9bf49",
                   },
@@ -381,7 +381,7 @@ export const schmetterlingstraum = {
                         title: "Landung-Live",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-1/landung-live.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/landung-live.html",
                         ],
                         id: "4c92ec971c104d60b3240d9d51c26f32",
                       },
@@ -394,7 +394,7 @@ export const schmetterlingstraum = {
                             title: "Text",
                             inner: [
                               "ccm.load",
-                              "resources/novels/schmetterlingstraum/kapitel-1/gruss-vom-mars.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/gruss-vom-mars.html",
                             ],
                             id: "0e68458e9bcf4c35ad47512959e1e319",
                           },
@@ -403,7 +403,7 @@ export const schmetterlingstraum = {
                             title: "Video",
                             inner: [
                               "ccm.load",
-                              "resources/novels/schmetterlingstraum/kapitel-1/gruss-vom-mars_video.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/gruss-vom-mars_video.html",
                             ],
                             id: "cb2669a7cfe84390b18c6ff3da1da4e8",
                           },
@@ -415,7 +415,7 @@ export const schmetterlingstraum = {
                         title: "Wiedersprüche",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-1/wiedersprueche.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/wiedersprueche.html",
                         ],
                         id: "9e7a45a223b94bf192f244f579fe6e51",
                       },
@@ -427,7 +427,7 @@ export const schmetterlingstraum = {
                     title: "Mars (kurz)",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-1/mars-kurz.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/mars-kurz.html",
                     ],
                     id: "9af3f3b4347f46fea8c11b5959f612fc",
                   },
@@ -440,7 +440,7 @@ export const schmetterlingstraum = {
                         title: "Mars 1/2",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-1/mars-alternativ-1.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/mars-alternativ-1.html",
                         ],
                         id: "823e4d1cbd1c45e8bfdf2473bf714bc5",
                       },
@@ -449,7 +449,7 @@ export const schmetterlingstraum = {
                         title: "Mars 2/2",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-1/mars-alternativ-2.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-1/mars-alternativ-2.html",
                         ],
                         id: "372589ebce334e8588b7e006e3a22e8d",
                       },
@@ -468,7 +468,7 @@ export const schmetterlingstraum = {
                     title: "VTV",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-2/vtv.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-2/vtv.html",
                     ],
                     id: "968c8e7732c94d6eb6231e3e0caf4087",
                   },
@@ -477,7 +477,7 @@ export const schmetterlingstraum = {
                     title: "VTVS (kurz)",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-2/vtvs-kurz.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-2/vtvs-kurz.html",
                     ],
                     id: "29bdcca8f0314caa8d2367d4bb63f61f",
                   },
@@ -486,7 +486,7 @@ export const schmetterlingstraum = {
                     title: "Virtuelle Studios",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-2/virtuelle_studios.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-2/virtuelle_studios.html",
                     ],
                     id: "27433be866a04906a43c33add9f2730a",
                   },
@@ -495,7 +495,7 @@ export const schmetterlingstraum = {
                     title: "VTVS Kamera Tracking",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-2/vtvs_kamera_traking.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-2/vtvs_kamera_traking.html",
                     ],
                     id: "7ae2e45dd25a4eb990c3c0c8d7af1525",
                   },
@@ -511,7 +511,7 @@ export const schmetterlingstraum = {
                     title: "Weltraummissionen",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-3/weltraummissionen.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/weltraummissionen.html",
                     ],
                     id: "13d5d2f1a6ac440ca4dfd1c8c2a66607",
                   },
@@ -520,7 +520,7 @@ export const schmetterlingstraum = {
                     title: "DLR",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-3/dlr.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/dlr.html",
                     ],
                     id: "4d108ab05a7f4b96ac7e8d966600b31a",
                   },
@@ -533,7 +533,7 @@ export const schmetterlingstraum = {
                         title: "Verdacht",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-3/verdacht.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/verdacht.html",
                         ],
                         id: "8fc84f9de1654e85bc2c35b5ab8d1a3d",
                       },
@@ -542,7 +542,7 @@ export const schmetterlingstraum = {
                         title: "Mondlüge?",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-3/mondluege.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/mondluege.html",
                         ],
                         id: "2bc854e4af6446c0b5ec191a051b7098",
                       },
@@ -551,7 +551,7 @@ export const schmetterlingstraum = {
                         title: "Expertentermin",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-3/expertentermin.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/expertentermin.html",
                         ],
                         id: "0bd8ad4e51a54317a74f9b828937a847",
                       },
@@ -564,7 +564,7 @@ export const schmetterlingstraum = {
                             title: "Text",
                             inner: [
                               "ccm.load",
-                              "resources/novels/schmetterlingstraum/kapitel-3/radiobericht.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/radiobericht.html",
                             ],
                             id: "cf57a09ace3a4672952e15e89dc0fcb2",
                           },
@@ -573,7 +573,7 @@ export const schmetterlingstraum = {
                             title: "Audio",
                             inner: [
                               "ccm.load",
-                              "resources/novels/schmetterlingstraum/kapitel-3/radiobericht-audio.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/radiobericht-audio.html",
                             ],
                             id: "f3d69baa321b4e44a54466b44c119ede",
                           },
@@ -585,7 +585,7 @@ export const schmetterlingstraum = {
                         title: "DLR",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-3/dlr-2.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/dlr-2.html",
                         ],
                         id: "3254b08e0b0549f69013334bf4d87e21",
                       },
@@ -594,7 +594,7 @@ export const schmetterlingstraum = {
                         title: "Wiedersehen",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-3/wiedersehen.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/wiedersehen.html",
                         ],
                         id: "14ff4c534cc94206bfe65732f8517cca",
                       },
@@ -607,7 +607,7 @@ export const schmetterlingstraum = {
                             title: "Text",
                             inner: [
                               "ccm.load",
-                              "resources/novels/schmetterlingstraum/kapitel-3/fragen-antworten.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/fragen-antworten.html",
                             ],
                             id: "aa5e980154e544ba9ba1629d5d791e06",
                           },
@@ -616,7 +616,7 @@ export const schmetterlingstraum = {
                             title: "Audio",
                             inner: [
                               "ccm.load",
-                              "resources/novels/schmetterlingstraum/kapitel-3/fragen-antworten-audio.html",
+                              "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/fragen-antworten-audio.html",
                             ],
                             id: "a5e3916a97854169baa51003507092b8",
                           },
@@ -628,7 +628,7 @@ export const schmetterlingstraum = {
                         title: "Neue Fragen",
                         inner: [
                           "ccm.load",
-                          "resources/novels/schmetterlingstraum/kapitel-3/neue-fragen.html",
+                          "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-3/neue-fragen.html",
                         ],
                         id: "d54bdd1d56424e90ab545dff2ed5cfff",
                       },
@@ -647,7 +647,7 @@ export const schmetterlingstraum = {
                     title: "IVE (kurz)",
                     inner: [
                       "ccm.load",
-                      "resources/novels/schmetterlingstraum/kapitel-4/ive-1.html",
+                      "https://tkless.github.io/lea_hymn/hymn_collection/resources//novels/schmetterlingstraum/kapitel-4/ive-1.html",
                     ],
                     id: "ab609626d57242eaa4724b0061fb1ffe",
                   },
