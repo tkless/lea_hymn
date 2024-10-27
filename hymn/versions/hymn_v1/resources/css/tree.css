@@ -1,8 +1,0 @@
-.cm {
-  display: flex;
-  justify-content: space-between;
-}
-.road {
-  width: 3rem;
-  filter: opacity(0.7);
-}

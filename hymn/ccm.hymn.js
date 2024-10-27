@@ -477,7 +477,7 @@
                         title: "Teil 1",
                         inner: [
                           "ccm.load",
-                          "h./../hymn_collection/resources/novels/passwortsicherheit/kap2/mystery-2-1.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/mystery-2-1.html",
                         ],
                         id: "90f34629f5574f9f96d83061109c2e65",
                       },
@@ -527,7 +527,7 @@
                         title: "Teil 2",
                         inner: [
                           "ccm.load",
-                          "h./../hymn_collection/resources/novels/passwortsicherheit/kap2/comedy-2-2.html",
+                          "./../hymn_collection/resources/novels/passwortsicherheit/kap2/comedy-2-2.html",
                         ],
                         id: "783939c0134b478aa7e405ed4eb12f8a",
                       },
@@ -591,7 +591,7 @@
                             icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "h./../hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-1-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap3/krimi-3-1-audio.html",
                             ],
                             id: "657a0c5a3f894978b4a104850d10852e",
                           },
@@ -856,7 +856,7 @@
                             icon: "./../hymn_collection/resources/novels/passwortsicherheit/media/file-earmark-music.svg",
                             inner: [
                               "ccm.load",
-                              "https://hymn.inf.h-brs.de/hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-4-audio.html",
+                              "./../hymn_collection/resources/novels/passwortsicherheit/kap4/krimi-4-4-audio.html",
                             ],
                             id: "40fc5077fb564f408cfd5105f61cf598",
                           },
@@ -1223,7 +1223,7 @@
       /*onchange: (event) => {
         console.log(event);
       },*/
-      //display_bookmark: true,
+      display_bookmark: true,
       helper: [
         "ccm.load",
         {

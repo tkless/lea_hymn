@@ -11,7 +11,7 @@ export const was_ist_html = {
   data: {
     container: "sc",
     title: "Was ist HTML?",
-    cover_img: "resources/novels/was_ist_html/cover.svg",
+    cover_img: "./../hymn_collection/resources/novels/was_ist_html/cover.svg",
     description: "Einführung.",
     inner: [
       {
